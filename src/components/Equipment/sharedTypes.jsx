@@ -1,5 +1,5 @@
 
-export const WeaponTypes = {
+export const ItemTypes = {
     head: "head",
     meleMain: "meleMain",
     meleOffHand: "meleOffHand",

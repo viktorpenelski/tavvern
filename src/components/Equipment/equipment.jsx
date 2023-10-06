@@ -1,6 +1,6 @@
 import { type } from "@testing-library/user-event/dist/type";
 import useFetch from "../../hooks/useFetch";
-import { EquipedItem, EquipmentSlotConfig, WeaponTypes } from "./sharedTypes";
+import { EquipedItem, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
 import {EquipmentListing, EquipmentItemHover} from "./equipmentListing";
 import Search from "./search";
 import Modal from "./modal";
@@ -41,22 +41,22 @@ const Equipment = () => {
                 </div>
             </Modal>
             <div id="item-head" className="flex flex-row justify-center" onClick={openModal}>
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: WeaponTypes.head})} 
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.head})} 
                                currentItem={selectedItem} />
             </div>
             <div className="flex float-left flex-col justify-center">
                 {items && <EquipmentSlot 
-                    slotConfig={new EquipmentSlotConfig({type: WeaponTypes.meleMain})}
+                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.meleMain})}
                     currentItem={new EquipedItem(items[0])}              
                 />}
                 {items && <EquipmentSlot 
-                    slotConfig={new EquipmentSlotConfig({type: WeaponTypes.meleOffHand}) } 
+                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.meleOffHand}) } 
                     currentItem={new EquipedItem(items[1])}
                 />}
             </div>
             <div className="flex float-right flex-col justify-right">
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: WeaponTypes.rangedMain}) } />
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: WeaponTypes.rangedOffHand}) } />
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedMain}) } />
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedOffHand}) } />
             </div>
         </div>
     );
