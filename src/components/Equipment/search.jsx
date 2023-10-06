@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Scroll from './scroll';
 import EquipmentListing from './equipmentListing';
 
-function Search({ items }) {
+function Search({ items, updateSelectedItem }) {
     const [searchField, setSearchField] = useState('');
 
     const filteredItems = items.filter(item => {
@@ -16,7 +16,7 @@ function Search({ items }) {
     function searchList() {
         return (
             <Scroll>
-                <EquipmentListing filteredItems={filteredItems} />
+                <EquipmentListing filteredItems={filteredItems} updateSelectedItem={updateSelectedItem} />
             </Scroll>
         )
     }
