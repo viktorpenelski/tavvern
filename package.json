@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build:local": "craco build",
     "test": "craco test",
     "eject": "craco eject"
   },

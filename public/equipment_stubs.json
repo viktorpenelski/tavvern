@@ -1,0 +1,28 @@
+[
+    {
+        "img": "https://bg3.wiki/w/images/thumb/a/a6/Staff_of_Crones_Icon.png/300px-Staff_of_Crones_Icon.png",
+        "name": "Staff of Crones",
+        "wikiUrl": "https://bg3.wiki/wiki/Staff_of_Crones",
+        "type": "Quarterstaff",
+        "rearity": "Uncommon",
+        "properties": "1h 🔨(1d6)\n2h 🔨(1d8)",
+        "description": "Cast Ray of Sickness once per Short Rest.",
+        "flavorText": "Few things solve a disagreement faster than displaying a greatclub. And this one reeks, too.",
+        "locationAct": "Act 1",
+        "location": "Looted from the ground in the treasure room after beating Auntie Ethel.",
+        "locationCoordinates": "X: -413 Y: 607"
+    },
+    {
+        "img": "https://bg3.wiki/w/images/thumb/f/f5/The_Blood_of_Lathander_Icon.png/300px-The_Blood_of_Lathander_Icon.png",
+        "name": "The Blood of Lathander",
+        "wikiUrl": "https://bg3.wiki/wiki/Staff_of_Crones",
+        "type": "Mace",
+        "rearity": "Legendary",
+        "properties": "1h 🔨(1d6) + 3",
+        "description": "Regain ❤️(2d6) Hit Points when your Hit Points are reduced to 0 once per Long Rest. Allies within 9m also regain ❤️(1d6) Hit Points. This weapon shines with a glowing light in a radius of 6m. In combat, fiends and undead standing in the light are Blinded. Cast Sunbeam once per Long Rest.",
+        "flavorText": "",
+        "locationAct": "Act 1",
+        "location": "Quest Reward by Find the Blood of Lathander quest.",
+        "locationCoordinates": "X: 1065 Y: -778"
+    }
+]
