@@ -12,30 +12,29 @@ const Equipment = () => {
 
     const [items, error] = useFetch(`http://localhost:3000/equipment_stubs.json`);
     const [selectedItems, setSelectedItem] = useState(Object.keys(ItemTypes).map((key) => [key, null]));
+    const [selectedSlot, setSelectedSlot] = useState(null);
 
-    var slot = null;
     const targetEl = document.getElementById('defaultModal');
     const _openModal = (slotConfig) => {
-        slot = slotConfig.type;
+        setSelectedSlot(slotConfig.type);
         targetEl.classList.remove('hidden');
     };
+    const closeModal = () => {
+        setSelectedSlot(null);
+        targetEl.classList.add('hidden');
+      };
 
 
     const searchForItem = (slotConfig) => {
-
         _openModal(slotConfig);
     };
 
     const updateSelectedItem = (newItem) => {
-        setSelectedItem({...selectedItems, [slot]: newItem});
+        setSelectedItem({...selectedItems, [selectedSlot]: newItem});
         closeModal();
     };
 
 
-    const closeModal = () => {
-      slot = null;
-      targetEl.classList.add('hidden');
-    };
 
     return (
         <div className="lg:col-start-2 col-span-1 border-indigo-800">
