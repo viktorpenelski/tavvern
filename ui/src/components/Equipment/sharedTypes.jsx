@@ -9,8 +9,8 @@ export const ItemTypes = {
 
 const meleeMartialWeapons = {
     oneHanded: ["flail", "morningstar", "rapier", "scimitar", "shortsword", "warpick"],
-    versatile: ["battleaxe", "longsword", "trident" ,"warhammer"],
-    twoHanded: ["glaive", "greataxe", "greatsword", "halberd", "maul","pike"]
+    versatile: ["battleaxe", "longsword", "trident", "warhammer"],
+    twoHanded: ["glaive", "greataxe", "greatsword", "halberd", "maul", "pike"]
 }
 
 const rangedMartialWeapons = {
@@ -32,7 +32,7 @@ const rangedSimpleWeapons = {
 export const ItemTypeMapping = {
     helmet: new Set(["helmet"]),
     meleMain: new Set([...meleeMartialWeapons.oneHanded, ...meleeMartialWeapons.versatile, ...meleeMartialWeapons.twoHanded, ...meleSimpleWeapons.oneHanded, ...meleSimpleWeapons.versatile, ...meleSimpleWeapons.twoHanded]),
-    meleOffHand: new Set([...meleeMartialWeapons.oneHanded, ...meleSimpleWeapons.oneHanded]),
+    meleOffHand: new Set(["shield", ...meleeMartialWeapons.oneHanded, ...meleSimpleWeapons.oneHanded]),
     rangedMain: new Set([...rangedMartialWeapons.oneHanded, ...rangedMartialWeapons.twoHanded, ...rangedSimpleWeapons.twoHanded]),
     rangedOffHand: new Set([...rangedMartialWeapons.oneHanded, ...rangedSimpleWeapons.oneHanded]),
 }
