@@ -58,7 +58,7 @@ const Equipment = () => {
             </Modal>
             <div id="item-head" className="flex flex-row justify-center">
                 <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.helmet})}
-                               currentItem={selectedItems.head}
+                               currentItem={selectedItems.helmet}
                                onClick={searchForItem} />
             </div>
             <div className="flex float-left flex-col justify-center">
@@ -92,7 +92,7 @@ const EquipmentSlot = ({slotConfig, currentItem, onClick}) => {
     }
     return (
         <div
-            style={{ '--image-url': `url(${currentItem.img ? currentItem.img : ""})` }} 
+            style={{ '--image-url': `url(${currentItem.imgUrl ? currentItem.imgUrl : ""})` }} 
             className=" group 
                         bg-contain bg-[image:var(--image-url)]
                         relative h-32 w-32 

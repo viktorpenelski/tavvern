@@ -8,7 +8,8 @@
         "": "X: 1279\nY: -807",
         "description": "Advantage on Intelligence Saving Throws if you are Githyanki. \nAdvantage on Attack Rolls against aberrations and aberrations have Disadvantage on Attack Rolls against you.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Aberration_Hunters'_Amulet"
+        "wikiUrl": "https://bg3.wiki/wiki/Aberration_Hunters'_Amulet",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/cc/Aberration_Hunters%27_Amulet_Icon.png/300px-Aberration_Hunters%27_Amulet_Icon.png"
     },
     {
         "name": "Absolute's Talisman",
@@ -19,7 +20,8 @@
         "": "X: -297 \nY: -21",
         "description": "Advantage on Death Saving Throws if you bear the Absolute's Brand\nCast Aid once per Long Rest. This casting of Aid only affects the caster.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Absolute's_Talisman"
+        "wikiUrl": "https://bg3.wiki/wiki/Absolute's_Talisman",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/7d/Absolute%27s_Talisman_Icon.png/300px-Absolute%27s_Talisman_Icon.png"
     },
     {
         "name": "Absolute's Warboard",
@@ -30,7 +32,8 @@
         "": "X: -297 \nY: -21",
         "description": "Gain a +1 bonus to Saving Throws if you bear the Absolute's Brand.\nCast Heroism once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Absolute's_Warboard"
+        "wikiUrl": "https://bg3.wiki/wiki/Absolute's_Warboard",
+        "imgUrl": "https://bg3.wiki/w/images/7/7d/Absolute%27s_Warboard_Icon.png"
     },
     {
         "name": "Abyss Beckoners",
@@ -41,7 +44,8 @@
         "": "X: 306 \nY: -170",
         "description": "Your summoned creatures have resistance to all damage except Psychic.\nAt the start of your summoned creature's turn, it must succed a Wisdom Saving Throw or be driven Mad.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Abyss_Beckoners"
+        "wikiUrl": "https://bg3.wiki/wiki/Abyss_Beckoners",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/b3/Abyss_Beckoners_Icon.png/300px-Abyss_Beckoners_Icon.png"
     },
     {
         "name": "Adamantine Longsword",
@@ -52,7 +56,8 @@
         "": "X: -612\nY: 295",
         "description": "This weapon ignores Resistance to Slashing damage.\nIf you hit an object with this weapon, the hit is always Critical.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Longsword"
+        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Longsword",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/bb/Adamantine_Longsword_Icon.png/300px-Adamantine_Longsword_Icon.png"
     },
     {
         "name": "Adamantine Mace",
@@ -63,7 +68,8 @@
         "": "X: -612\nY: 295",
         "description": "This weapon ignores Resistance to Bludgeoning damage. \nIf you hit an object with this weapon, the hit is always Critical.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Mace"
+        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Mace",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/92/Adamantine_Mace_Icon.png/300px-Adamantine_Mace_Icon.png"
     },
     {
         "name": "Adamantine Scale Mail",
@@ -74,7 +80,8 @@
         "": "X: -612\nY: 295",
         "description": "Reduce all incoming damage by 1.\nWhen a creature hits you with a melee attack, you send it Reeling for 2 turns.\nAttackers can't land Critical Hits on you.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Scale_Mail"
+        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Scale_Mail",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/e0/Adamantine_Scale_Mail_Icon.png/300px-Adamantine_Scale_Mail_Icon.png"
     },
     {
         "name": "Adamantine Scimitar",
@@ -85,7 +92,8 @@
         "": "X: -612\nY: 295",
         "description": "This weapon ignores Resistance to Slashing damage.\nIf you hit an object with this weapon, the hit is always Critical.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Scimitar"
+        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Scimitar",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/e6/Adamantine_Scimitar_Icon.png/300px-Adamantine_Scimitar_Icon.png"
     },
     {
         "name": "Adamantine Shield",
@@ -96,7 +104,8 @@
         "": "X: -612\nY: 295",
         "description": "When a creature misses a melee attack against you, you send it Reeling for 2 turns.\nWhen you are hit with a melee attack, you can use your reaction to knock them Prone unless they succeed a Dexterity Saving Throw.\nAttackers can't land Critical Hits on you.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Shield"
+        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Shield",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/66/Adamantine_Shield_Icon.png/300px-Adamantine_Shield_Icon.png"
     },
     {
         "name": "Adamantine Splint Armour",
@@ -107,7 +116,8 @@
         "": "X: -612\nY: 295",
         "description": "Reduce all incoming damage by 2.\nWhen a creature hits you with a melee attack, you send it Reeling for 3 turns.\nAttackers can't land Critical Hits on you.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Splint_Armour"
+        "wikiUrl": "https://bg3.wiki/wiki/Adamantine_Splint_Armour",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/bf/Adamantine_Splint_Mail_Icon.png/300px-Adamantine_Splint_Mail_Icon.png"
     },
     {
         "name": "Amulet of Branding",
@@ -118,7 +128,8 @@
         "": "X: 1383 \nY: -812",
         "description": "Cast Brand the Weak once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Branding"
+        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Branding",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d0/Amulet_of_Branding_Icon.png/300px-Amulet_of_Branding_Icon.png"
     },
     {
         "name": "Amulet of Elemental Torment",
@@ -129,7 +140,8 @@
         "": "X: -102 \nY: 426",
         "description": "When you stand on certain surfaces and cast a spell that deals damage, the target also suffers the surface's effects.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Elemental_Torment"
+        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Elemental_Torment",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5c/Amulet_of_Elemental_Torment_Icon.png/300px-Amulet_of_Elemental_Torment_Icon.png"
     },
     {
         "name": "Amulet of Misty Step",
@@ -140,7 +152,8 @@
         "": "X: 386 \nY: 8",
         "description": "Cast Misty Step once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Misty_Step"
+        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Misty_Step",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/99/Amulet_of_Misty_Step_Icon.png/300px-Amulet_of_Misty_Step_Icon.png"
     },
     {
         "name": "Amulet of Restoration",
@@ -151,7 +164,8 @@
         "": "X: 54 \nY: -95",
         "description": "Cast Healing Word once per Long Rest.\nCast Mass Healing Word once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Restoration"
+        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Restoration",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/90/Amulet_of_Restoration_Icon.png/300px-Amulet_of_Restoration_Icon.png"
     },
     {
         "name": "Amulet of Sel\u00fbne's Chosen",
@@ -162,7 +176,8 @@
         "": "X: 296 \nY: 71",
         "description": "Cast Sel\u00fbne's Dream once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Sel%C3%BBne's_Chosen"
+        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Sel%C3%BBne's_Chosen",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/b8/Amulet_of_Selunes_Chosen_Icon.png/300px-Amulet_of_Selunes_Chosen_Icon.png"
     },
     {
         "name": "Amulet of Silvanus",
@@ -173,7 +188,8 @@
         "": "X: 262 \nY: 481",
         "description": "Cast Lesser Restoration once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Silvanus"
+        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_Silvanus",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/9f/Amulet_of_Silvanus_Icon.png/300px-Amulet_of_Silvanus_Icon.png"
     },
     {
         "name": "Amulet of the Unworthy",
@@ -184,7 +200,8 @@
         "": "X: 160 \nY: -147",
         "description": "Resistance to Slashing damage.\nVulnerability to Bludgeoning damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_the_Unworthy"
+        "wikiUrl": "https://bg3.wiki/wiki/Amulet_of_the_Unworthy",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5d/Amulet_of_the_Unworthy_Icon.png/300px-Amulet_of_the_Unworthy_Icon.png"
     },
     {
         "name": "Armour of Uninhibited Kushigo",
@@ -195,7 +212,8 @@
         "": "X: -626 \nY: 331",
         "description": "While Patient Defence is active, you can use your Reaction to make an unarmed strike againts any attacker that misses.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Armour_of_Uninhibited_Kushigo"
+        "wikiUrl": "https://bg3.wiki/wiki/Armour_of_Uninhibited_Kushigo",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/53/Armour_of_Uninhibited_Kushigo_Icon.png/300px-Armour_of_Uninhibited_Kushigo_Icon.png"
     },
     {
         "name": "Assassin's Touch",
@@ -206,7 +224,8 @@
         "": "X: 190 \nY: 590",
         "description": "Deals an additional \ud83d\udc80(1d4) to creatures that are Knocked Out or Sleeping.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Assassin's_Touch"
+        "wikiUrl": "https://bg3.wiki/wiki/Assassin's_Touch",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/43/Assassins_Touch_Icon.png/300px-Assassins_Touch_Icon.png"
     },
     {
         "name": "Beastmaster's Chain",
@@ -217,7 +236,8 @@
         "": "X: 377 \nY: -43",
         "description": "Cast Animal Friendship once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Beastmaster's_Chain"
+        "wikiUrl": "https://bg3.wiki/wiki/Beastmaster's_Chain",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f5/Beastmasters_Chain_Icon.png/300px-Beastmasters_Chain_Icon.png"
     },
     {
         "name": "Blazer of Benevolence",
@@ -228,7 +248,8 @@
         "": "X: 334 \nY: -7",
         "description": "Gain \u2764\ufe0f(4) Temporary Hit Points when you inspire an ally using Bardic Inspiration.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Blazer_of_Benevolence"
+        "wikiUrl": "https://bg3.wiki/wiki/Blazer_of_Benevolence",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/ff/Blazer_of_Benevolence_Icon.png/300px-Blazer_of_Benevolence_Icon.png"
     },
     {
         "name": "Blooded Greataxe",
@@ -239,7 +260,8 @@
         "": "",
         "description": "Deal an additional \ud83d\udd2a(1d4) while you're at 50% Hit Points or less.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Blooded_Greataxe"
+        "wikiUrl": "https://bg3.wiki/wiki/Blooded_Greataxe",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/b2/Blooded_Greataxe_Icon.png/300px-Blooded_Greataxe_Icon.png"
     },
     {
         "name": "Bloodguzzler Garb",
@@ -250,7 +272,8 @@
         "": "X: -45 \nY: -204",
         "description": "Gain Wrath for 1 turn whenever you are hit.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Bloodguzzler_Garb"
+        "wikiUrl": "https://bg3.wiki/wiki/Bloodguzzler_Garb",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/b5/Bloodguzzler_Garb_Icon.png/300px-Bloodguzzler_Garb_Icon.png"
     },
     {
         "name": "Boots of Aid and Comfort",
@@ -261,7 +284,8 @@
         "": "X: -102 \nY: 426",
         "description": "When you heal a creature, they gain an additional \u2764\ufe0f(3) Temporary Hit Points.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Aid_and_Comfort"
+        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Aid_and_Comfort",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/41/Boots_of_Aid_and_Comfort_Icon.png/300px-Boots_of_Aid_and_Comfort_Icon.png"
     },
     {
         "name": "Boots of Elemental Momentum",
@@ -272,7 +296,8 @@
         "": "X: 18 \nY: 22",
         "description": "When you deal Acid, Cold, Fire, Lightning or Thunder damage with Spells or Cantrips, gain Momentum for 2 turns.\nAthletics +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Elemental_Momentum"
+        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Elemental_Momentum",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/42/Boots_of_Elemental_Momentum_Icon.png/300px-Boots_of_Elemental_Momentum_Icon.png"
     },
     {
         "name": "Boots of Genial Striding",
@@ -283,7 +308,8 @@
         "": "X: 112 \nY: -89",
         "description": "Your Movement Speed is unimpeded by Difficult Terrain.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Genial_Striding"
+        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Genial_Striding",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5c/Boots_of_Genial_Striding_Icon.png/300px-Boots_of_Genial_Striding_Icon.png"
     },
     {
         "name": "Boots of Speed",
@@ -294,7 +320,8 @@
         "": "X: 83 \nY: -98",
         "description": "Cast Click Heels",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Speed"
+        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Speed",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f2/Boots_of_Speed_Icon.png/300px-Boots_of_Speed_Icon.png"
     },
     {
         "name": "Boots of Stormy Clamour",
@@ -305,7 +332,8 @@
         "": "X: 112 \nY: -88",
         "description": "When you inflict a condition on a creature, you also inflict Reverberation for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Stormy_Clamour"
+        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Stormy_Clamour",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/0b/Boots_of_Stormy_Clamour_Icon.png/300px-Boots_of_Stormy_Clamour_Icon.png"
     },
     {
         "name": "Boots of Striding",
@@ -316,7 +344,8 @@
         "": "X: 336 \nY: 43",
         "description": "When you cast a spell that requires Concentration, you gain Momentum for 2 turns. \nWhile you are concentrating, you cannot be pushed or get knocked Prone.\nAthletics +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Striding"
+        "wikiUrl": "https://bg3.wiki/wiki/Boots_of_Striding",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/94/Boots_of_Striding_Icon.png/300px-Boots_of_Striding_Icon.png"
     },
     {
         "name": "Bow of Awareness",
@@ -327,7 +356,8 @@
         "": "X: 273 \nY: -32",
         "description": "Gain a +1 bonus to Initiative Rolls.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Bow_of_Awareness"
+        "wikiUrl": "https://bg3.wiki/wiki/Bow_of_Awareness",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/dd/Shortbow_PlusOne_Icon.png/300px-Shortbow_PlusOne_Icon.png"
     },
     {
         "name": "Bow of the Banshee",
@@ -338,7 +368,8 @@
         "": "X: -630 \nY: 327",
         "description": "Gain \ud83c\udfb2(1d4) bonus to attack and damage rolls against Frightened creatures.\nWhen you a hit with this weapon, possibly inflict Frightened.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Bow_of_the_Banshee"
+        "wikiUrl": "https://bg3.wiki/wiki/Bow_of_the_Banshee",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/dd/Shortbow_PlusOne_Icon.png/300px-Shortbow_PlusOne_Icon.png"
     },
     {
         "name": "Bracers of Defence",
@@ -349,7 +380,8 @@
         "": "X: -657 \nY: -371 ",
         "description": "Gain a \ud83d\udee1\ufe0f + 2 AC when not wearing armour or holding a shield.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Bracers_of_Defence"
+        "wikiUrl": "https://bg3.wiki/wiki/Bracers_of_Defence",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/05/Bracers_of_Defence_Icon.png/300px-Bracers_of_Defence_Icon.png"
     },
     {
         "name": "Bracing Band",
@@ -360,7 +392,8 @@
         "": "X: -626 \nY: 331",
         "description": "Gain \ud83d\udee1\ufe0f + 1 AC until your next turn after shoving an enemy.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Bracing_Band"
+        "wikiUrl": "https://bg3.wiki/wiki/Bracing_Band",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/ae/Bracing_Band_Icon.png/300px-Bracing_Band_Icon.png"
     },
     {
         "name": "Broodmother's Revenge",
@@ -371,7 +404,8 @@
         "": "X: -470\nY: 22",
         "description": "When you are healed, your weapon deals an additional \ud83d\udc0d(1d4) for 3 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Broodmother's_Revenge"
+        "wikiUrl": "https://bg3.wiki/wiki/Broodmother's_Revenge",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/80/Broodmothers_Revenge_Icon.png/300px-Broodmothers_Revenge_Icon.png"
     },
     {
         "name": "Cacophony",
@@ -382,7 +416,8 @@
         "": "X: 18 \nY: 22",
         "description": "Cast Thunderous Smite once per Short Rest",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Cacophony"
+        "wikiUrl": "https://bg3.wiki/wiki/Cacophony",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/09/Quarterstaff_PlusOne_Icon.png/300px-Quarterstaff_PlusOne_Icon.png"
     },
     {
         "name": "Cap of Curing",
@@ -393,7 +428,8 @@
         "": "X: 281\nY: 497",
         "description": "When you inspire an ally using Bardic Inspiration, they regain \u2764\ufe0f(1d6) Hit Points.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Cap_of_Curing"
+        "wikiUrl": "https://bg3.wiki/wiki/Cap_of_Curing",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f6/Cap_of_Curing_Icon.png/300px-Cap_of_Curing_Icon.png"
     },
     {
         "name": "Cap of Wrath",
@@ -404,7 +440,8 @@
         "": "X: -625\nY: 325",
         "description": "If you start your turn with 50% Hit Points or less, gain Wrath for 2 turn.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Cap_of_Wrath"
+        "wikiUrl": "https://bg3.wiki/wiki/Cap_of_Wrath",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/06/Cap_of_Wrath_Icon.png/300px-Cap_of_Wrath_Icon.png"
     },
     {
         "name": "Caustic Band",
@@ -415,7 +452,8 @@
         "": "X: 54 \nY: -95",
         "description": "Deal an additional \u2697\ufe0f(2) with weapon attacks.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Caustic_Band"
+        "wikiUrl": "https://bg3.wiki/wiki/Caustic_Band",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c7/Caustic_Band_Icon.png/300px-Caustic_Band_Icon.png"
     },
     {
         "name": "Ceremonial Battleaxe",
@@ -426,7 +464,8 @@
         "": "X: 92 \nY: 45",
         "description": "SPOILER IN NOTE",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ceremonial_Battleaxe"
+        "wikiUrl": "https://bg3.wiki/wiki/Ceremonial_Battleaxe",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/4c/Battleaxe_PlusOne_Icon.png/300px-Battleaxe_PlusOne_Icon.png"
     },
     {
         "name": "Ceremonial Mace",
@@ -437,7 +476,8 @@
         "": "X: 85 \nY: 32",
         "description": "SPOILER IN NOTE",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ceremonial_Mace"
+        "wikiUrl": "https://bg3.wiki/wiki/Ceremonial_Mace",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/51/Mace_PlusOne_Icon.png/300px-Mace_PlusOne_Icon.png"
     },
     {
         "name": "Ceremonial Warhammer",
@@ -448,7 +488,8 @@
         "": "X: 82 \nY: 39",
         "description": "SPOILER IN NOTE",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ceremonial_Warhammer"
+        "wikiUrl": "https://bg3.wiki/wiki/Ceremonial_Warhammer",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d1/Warhammer_PlusOne_Icon.png/300px-Warhammer_PlusOne_Icon.png"
     },
     {
         "name": "Champion's Chain",
@@ -459,7 +500,8 @@
         "": "X: 59\nY: -108",
         "description": "Grant an ally a +2 bonus to Intimidation once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Champion's_Chain"
+        "wikiUrl": "https://bg3.wiki/wiki/Champion's_Chain",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/16/Champions_Chain_Icon.png/300px-Champions_Chain_Icon.png"
     },
     {
         "name": "Cinder Shoes",
@@ -470,7 +512,8 @@
         "": "X: 112 \nY: -89",
         "description": "When you Burn an enemy, gain Heat for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Cinder_Shoes"
+        "wikiUrl": "https://bg3.wiki/wiki/Cinder_Shoes",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1a/Leather_Boots_Magical_Icon.png/300px-Leather_Boots_Magical_Icon.png"
     },
     {
         "name": "Circlet of Blasting",
@@ -481,7 +524,8 @@
         "": "X: 112 \nY: -89",
         "description": "Cast Scorching Ray once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Circlet_of_Blasting"
+        "wikiUrl": "https://bg3.wiki/wiki/Circlet_of_Blasting",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/96/Circlet_of_Blasting_Icon.png/300px-Circlet_of_Blasting_Icon.png"
     },
     {
         "name": "Circlet of Psionic Revenge",
@@ -492,7 +536,8 @@
         "": "X: 1359\nY: -685",
         "description": "When you succed a Saving Throw, the enemy that caused the throw takes \ud83d\udc41\ufe0f(1d4).\nGain a +1 bonus to Intelligence, Wisdom, and Charisma Saving Throws if you are Githyanki.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Circlet_of_Psionic_Revenge"
+        "wikiUrl": "https://bg3.wiki/wiki/Circlet_of_Psionic_Revenge",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/4b/Circlet_of_Psionic_Revenge_Icon.png/300px-Circlet_of_Psionic_Revenge_Icon.png"
     },
     {
         "name": "Club of Hill Giant Strength",
@@ -503,7 +548,8 @@
         "": "X: -35\nY: -270",
         "description": "Increase Strength to 19.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Club_of_Hill_Giant_Strength"
+        "wikiUrl": "https://bg3.wiki/wiki/Club_of_Hill_Giant_Strength",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5b/Club_Icon.png/300px-Club_Icon.png"
     },
     {
         "name": "Corellon's Grace",
@@ -514,7 +560,8 @@
         "": "X: 195\nY: 546",
         "description": "Gain a +1 bonus to Unarmed Attack Rolls and damage.\nGain a +2 bonus to Saving Throws when not wearing armour.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Corellon's_Grace"
+        "wikiUrl": "https://bg3.wiki/wiki/Corellon's_Grace",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/02/Corellons_Grace_Icon.png/300px-Corellons_Grace_Icon.png"
     },
     {
         "name": "Corrosive Flail",
@@ -525,7 +572,8 @@
         "": "X: 54 \nY: -95",
         "description": "Gain Corrosive Strike weapon action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Corrosive_Flail"
+        "wikiUrl": "https://bg3.wiki/wiki/Corrosive_Flail",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f3/Corrosive_Flail_Icon.png/300px-Corrosive_Flail_Icon.png"
     },
     {
         "name": "Creation's Echo",
@@ -536,7 +584,8 @@
         "": "X: 112 \nY: -88",
         "description": "When you deal Acid, Fire, Lightning, Radiant, or Necrotic damage, gain Resistance to that damage type for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Creation's_Echo"
+        "wikiUrl": "https://bg3.wiki/wiki/Creation's_Echo",
+        "imgUrl": "https://bg3.wiki/w/images/e/ed/Staff_of_Arcane_Blessing_Icon.png"
     },
     {
         "name": "Crossbow of Arcane Force",
@@ -547,7 +596,8 @@
         "": "X: 1395\nY: 841",
         "description": "Gain Arcane Ammunition weapon action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Crossbow_of_Arcane_Force"
+        "wikiUrl": "https://bg3.wiki/wiki/Crossbow_of_Arcane_Force",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/81/Crossbow_of_Arcane_Force_Icon.png/300px-Crossbow_of_Arcane_Force_Icon.png"
     },
     {
         "name": "Crusher's Ring",
@@ -558,7 +608,8 @@
         "": "X: -73\nY: 438",
         "description": "Movement Speed increased by 3m / 10ft.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Crusher's_Ring"
+        "wikiUrl": "https://bg3.wiki/wiki/Crusher's_Ring",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/63/Crushers_Ring_Icon.png/300px-Crushers_Ring_Icon.png"
     },
     {
         "name": "Daredevil Gloves",
@@ -569,7 +620,8 @@
         "": "X: 1383 \nY: -812",
         "description": "Gain a +1 bonus to Spell Attack Rolls.\nYour Ranged Spell Attacks can be made as melee spell attacks when you are adjacent to a hostile creature.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Daredevil_Gloves"
+        "wikiUrl": "https://bg3.wiki/wiki/Daredevil_Gloves",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/ed/Daredevil_Gloves_Icon.png/300px-Daredevil_Gloves_Icon.png"
     },
     {
         "name": "Dark Justiciar Mail",
@@ -580,7 +632,8 @@
         "": "X: -655 \nY: 424\n\nX: -609 \nY: 246",
         "description": "Deal \ud83d\udc80(1d4) to attackers that hit you with a melee attack while you're obscured by shadow.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Dark_Justiciar_Mail"
+        "wikiUrl": "https://bg3.wiki/wiki/Dark_Justiciar_Mail",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/99/Dark_Justiciar_Mail_Icon.png/300px-Dark_Justiciar_Mail_Icon.png"
     },
     {
         "name": "Dark Justiciar Mask",
@@ -591,7 +644,8 @@
         "": "X: -606 \nY: 282",
         "description": "Intimidation +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Dark_Justiciar_Mask"
+        "wikiUrl": "https://bg3.wiki/wiki/Dark_Justiciar_Mask",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/71/Dark_Justiciar_Mask_Icon.png/300px-Dark_Justiciar_Mask_Icon.png"
     },
     {
         "name": "Deep Delver",
@@ -602,7 +656,8 @@
         "": "X: -626\nY: 355",
         "description": "Inflicts Shattered on hit. When attacking a Shattered target, deal an additional \ud83c\udff9(1d4).",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Deep_Delver"
+        "wikiUrl": "https://bg3.wiki/wiki/Deep_Delver",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/4e/Warpick_PlusOne_Icon.png/300px-Warpick_PlusOne_Icon.png"
     },
     {
         "name": "Defender Flail",
@@ -613,7 +668,8 @@
         "": "X: 1383 \nY: -812",
         "description": "Reduce incoming Bludgeoning, Piercing, and Slashing damage by 1.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Defender_Flail"
+        "wikiUrl": "https://bg3.wiki/wiki/Defender_Flail",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/83/Flail_PlusOne_Icon.png/300px-Flail_PlusOne_Icon.png"
     },
     {
         "name": "Diadem of Arcane Synergy",
@@ -624,7 +680,8 @@
         "": "X: 1365\nY: -664",
         "description": "When you inflict a condition, gain Arcane Synergy for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Diadem_of_Arcane_Synergy"
+        "wikiUrl": "https://bg3.wiki/wiki/Diadem_of_Arcane_Synergy",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/92/Diadem_of_Arcane_Synergy_Icon.png/300px-Diadem_of_Arcane_Synergy_Icon.png"
     },
     {
         "name": "Disintegrating Night Walkers",
@@ -635,7 +692,8 @@
         "": "X: -644\nY: 302",
         "description": "Immune to being Enwebbed, Entangled, or Ensnared and slipping on Grease or Ice.\nCast Misty Step once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Disintegrating_Night_Walkers"
+        "wikiUrl": "https://bg3.wiki/wiki/Disintegrating_Night_Walkers",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/4f/Disintegrating_Nightwalkers_Icon.png/300px-Disintegrating_Nightwalkers_Icon.png"
     },
     {
         "name": "Doom Hammer",
@@ -646,7 +704,8 @@
         "": "X: -102 \nY: 426",
         "description": "Prevents target from regaining Hit Points. Undead creatures also get Disadvantage on Attack Rolls.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Doom_Hammer"
+        "wikiUrl": "https://bg3.wiki/wiki/Doom_Hammer",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/00/Maul_PlusOne_Icon.png/300px-Maul_PlusOne_Icon.png"
     },
     {
         "name": "Dragon's Grasp",
@@ -657,7 +716,8 @@
         "": "X: 205\nY: 515",
         "description": "Deals an additional \ud83d\udd2a(1d4) to Burning targets.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Dragon's_Grasp"
+        "wikiUrl": "https://bg3.wiki/wiki/Dragon's_Grasp",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f4/Handaxe_PlusOne_Icon.png/300px-Handaxe_PlusOne_Icon.png"
     },
     {
         "name": "Envoy's Amulet",
@@ -668,7 +728,8 @@
         "": "X: 77\nY: -105",
         "description": "Grant an ally a +2 bonus to Persuasion Checks once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Envoy's_Amulet"
+        "wikiUrl": "https://bg3.wiki/wiki/Envoy's_Amulet",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c7/Envoys_Amulet_Icon.png/300px-Envoys_Amulet_Icon.png"
     },
     {
         "name": "Everburn Blade",
@@ -679,7 +740,8 @@
         "": "X: -50\nY: 390",
         "description": "",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Everburn_Blade"
+        "wikiUrl": "https://bg3.wiki/wiki/Everburn_Blade",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f1/Everburn_Blade.png/300px-Everburn_Blade.png"
     },
     {
         "name": "Explorer's Ring",
@@ -690,7 +752,8 @@
         "": "X: -12 \nY: -50",
         "description": "Nature +1\nSurvival +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Explorer's_Ring"
+        "wikiUrl": "https://bg3.wiki/wiki/Explorer's_Ring",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/47/Explorers_Ring_Icon.png/300px-Explorers_Ring_Icon.png"
     },
     {
         "name": "Exterminator's Axe",
@@ -701,7 +764,8 @@
         "": "X: 10\nY: -195",
         "description": "Deals an additional \ud83d\udd25(1d6) to Plants, Insects, and Small creatures.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Exterminator's_Axe"
+        "wikiUrl": "https://bg3.wiki/wiki/Exterminator's_Axe",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/47/Greataxe_PlusOne_Icon.png/300px-Greataxe_PlusOne_Icon.png"
     },
     {
         "name": "Faithbreaker",
@@ -712,7 +776,8 @@
         "": "X: 298\nY: 40",
         "description": "Gain Absolute Power weapon action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Faithbreaker"
+        "wikiUrl": "https://bg3.wiki/wiki/Faithbreaker",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d1/Faithbreaker_Icon.png/300px-Faithbreaker_Icon.png"
     },
     {
         "name": "Featherlight Boots",
@@ -723,7 +788,8 @@
         "": "X: 59\nY: -108",
         "description": "When you have 50% Hit Points or less, your Movement Speed is increased by 3m / 10ft.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Featherlight_Boots"
+        "wikiUrl": "https://bg3.wiki/wiki/Featherlight_Boots",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d6/Featherlight_Boots_Icon.png/300px-Featherlight_Boots_Icon.png"
     },
     {
         "name": "Fetish of Callarduran Smoothhands",
@@ -734,7 +800,8 @@
         "": "X: -610\nY: 408",
         "description": "Cast Invisibility once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Fetish_of_Callarduran_Smoothhands"
+        "wikiUrl": "https://bg3.wiki/wiki/Fetish_of_Callarduran_Smoothhands",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/fb/Fetish_of_Callarduran_Smoothhands_Icon.png/300px-Fetish_of_Callarduran_Smoothhands_Icon.png"
     },
     {
         "name": "Firestoker",
@@ -745,7 +812,8 @@
         "": "X: -574\nY: 382",
         "description": "Deals an additional \ud83c\udff9(1d4) to Burning targets.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Firestoker"
+        "wikiUrl": "https://bg3.wiki/wiki/Firestoker",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/bd/Hand_Crossbow_PlusOne_Icon.png/300px-Hand_Crossbow_PlusOne_Icon.png"
     },
     {
         "name": "Fleetfingers",
@@ -756,7 +824,8 @@
         "": "X: 77\nY: 347",
         "description": "When you Dash or take a similar action, you can Jump without using a bonus action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Fleetfingers"
+        "wikiUrl": "https://bg3.wiki/wiki/Fleetfingers",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/53/Fleetfingers_Icon.png/300px-Fleetfingers_Icon.png"
     },
     {
         "name": "Gandrel's Aspiration",
@@ -767,7 +836,8 @@
         "": "X: -26\nY: 240",
         "description": "Advantage against Monstrosity type enemies.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gandrel's_Aspiration"
+        "wikiUrl": "https://bg3.wiki/wiki/Gandrel's_Aspiration",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/bf/Heavy_Crossbow_PlusOne_Icon.png/300px-Heavy_Crossbow_PlusOne_Icon.png"
     },
     {
         "name": "Giantbreaker",
@@ -778,7 +848,8 @@
         "": "X: 292\nY: -245",
         "description": "When you hit, inflict Reeling for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Giantbreaker"
+        "wikiUrl": "https://bg3.wiki/wiki/Giantbreaker",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/bf/Heavy_Crossbow_PlusOne_Icon.png/300px-Heavy_Crossbow_PlusOne_Icon.png"
     },
     {
         "name": "Gloves of Archery",
@@ -789,7 +860,8 @@
         "": "X: -102 \nY: 426",
         "description": "Deal an additional \ud83c\udfb2(2) damage with ranged weapon attacks.\nProficiency with Longbows and Shortbows.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Archery"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Archery",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/50/Gloves_of_Archery_icon.png/300px-Gloves_of_Archery_icon.png"
     },
     {
         "name": "Gloves of Baneful Striking",
@@ -800,7 +872,8 @@
         "": "X: 18 \nY: 22",
         "description": "When you deal damage with a weapon attack, the target recieves a \ud83c\udfb2(1d4) penalty to its Saving Throw against your next spell.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Baneful_Striking"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Baneful_Striking",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/36/Gloves_of_Baneful_Striking_Icon.png/300px-Gloves_of_Baneful_Striking_Icon.png"
     },
     {
         "name": "Gloves of Belligerent Skies",
@@ -811,7 +884,8 @@
         "": "X: 1359\nY: -685",
         "description": "When you deal Thunder, Lightning, or Radiant damage, inflict Reverberation for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Belligerent_Skies"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Belligerent_Skies",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/e4/Gloves_of_Belligerent_Skies_Icon.png/300px-Gloves_of_Belligerent_Skies_Icon.png"
     },
     {
         "name": "Gloves of Cinder and Sizzle",
@@ -822,7 +896,8 @@
         "": "X: 18 \nY: 22",
         "description": "Deal an additional \ud83d\udd25(1d4) with your unarmed attacks.\nCast Scorching Ray once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Cinder_and_Sizzle"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Cinder_and_Sizzle",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/60/Gloves_of_Cinder_and_Sizzle_Icon.png/300px-Gloves_of_Cinder_and_Sizzle_Icon.png"
     },
     {
         "name": "Gloves of Dexterity",
@@ -833,7 +908,8 @@
         "": "X: 1383 \nY: -812",
         "description": "Increases Dexterity to 18.\nAttack +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Dexterity"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Dexterity",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/aa/Gloves_of_Dexterity_Icon.png/300px-Gloves_of_Dexterity_Icon.png"
     },
     {
         "name": "Gloves of Hail of Thorns",
@@ -844,7 +920,8 @@
         "": "X: 292\nY: -245",
         "description": "Cast Hail of Thorns once per Short Rest",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Hail_of_Thorns"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Hail_of_Thorns",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/82/Leather_Gloves_Magical_Icon.png/300px-Leather_Gloves_Magical_Icon.png"
     },
     {
         "name": "Gloves of Heroism",
@@ -855,7 +932,8 @@
         "": "X: -674 \nY: -401",
         "description": "When you use your Channel Oath spells, you gain Heroism.\nStrength Saving Throws +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Heroism"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Heroism",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/78/Metallic_Gloves_Magical_Icon.png/300px-Metallic_Gloves_Magical_Icon.png"
     },
     {
         "name": "Gloves of Missile Snaring",
@@ -866,7 +944,8 @@
         "": "X: 205\nY: 515",
         "description": "As a Reaction, intercept ranged weapon attacks and reduce their damage by \ud83c\udfb2(1d10 + Dexterity Modifier).",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Missile_Snaring"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Missile_Snaring",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/3a/Gloves_of_Missile_Snaring_Icon.png/300px-Gloves_of_Missile_Snaring_Icon.png"
     },
     {
         "name": "Gloves of Power",
@@ -877,7 +956,8 @@
         "": "X: 205\nY: 421",
         "description": "When you deal damage with a melee attack and bear the Absolute's Brand, the target recieves a \ud83c\udfb2(1d4) penalty penalty to their Attack Rolls and Saving Throws.\nSleight of Hand +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Power"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Power",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/82/Leather_Gloves_Magical_Icon.png/300px-Leather_Gloves_Magical_Icon.png"
     },
     {
         "name": "Gloves of the Growling Underdog",
@@ -888,7 +968,8 @@
         "": "X: 296 \nY: 71",
         "description": "Advantage on melee attack rolls while surrounded by 2 or more foes.\nStrength Saving Throws +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_the_Growling_Underdog"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_the_Growling_Underdog",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/80/Gloves_of_the_Growling_Underdog_Icon.png/300px-Gloves_of_the_Growling_Underdog_Icon.png"
     },
     {
         "name": "Gloves of Thievery",
@@ -899,7 +980,8 @@
         "": "X: 292\nY: -245",
         "description": "Advantage on Sleight of Hand Checks.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Thievery"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Thievery",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/a9/Gloves_of_Thievery_Icon.png/300px-Gloves_of_Thievery_Icon.png"
     },
     {
         "name": "Gloves of Uninhibited Kushigo",
@@ -910,7 +992,8 @@
         "": "X: 54 \nY: -95",
         "description": "Deal an additional \ud83c\udfb2(1d4) with Throw Attacks and attacks made with Improvised Weapons.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Uninhibited_Kushigo"
+        "wikiUrl": "https://bg3.wiki/wiki/Gloves_of_Uninhibited_Kushigo",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/07/Gloves_of_Uninhibited_Kushigo_Icon.png/300px-Gloves_of_Uninhibited_Kushigo_Icon.png"
     },
     {
         "name": "Glowing Shield",
@@ -921,7 +1004,8 @@
         "": "X: -53 \nY: 461",
         "description": "Gain \u2764\ufe0f(8) Temporary Hit Points when you're at 50% Hit Points or less once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Glowing_Shield"
+        "wikiUrl": "https://bg3.wiki/wiki/Glowing_Shield",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1f/Glowing_Shield_Icon.png/300px-Glowing_Shield_Icon.png"
     },
     {
         "name": "Gold Wyrmling Staff",
@@ -932,7 +1016,8 @@
         "": "",
         "description": "Cast Fire Bolt",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Gold_Wyrmling_Staff"
+        "wikiUrl": "https://bg3.wiki/wiki/Gold_Wyrmling_Staff",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/09/Quarterstaff_PlusOne_Icon.png/300px-Quarterstaff_PlusOne_Icon.png"
     },
     {
         "name": "Grymskull Helm",
@@ -943,7 +1028,8 @@
         "": "X: -612\nY: 295",
         "description": "Attackers can't land Critical Hits on you.\nResistance to Fire damage.\nCast Hunter's Mark once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Grymskull_Helm"
+        "wikiUrl": "https://bg3.wiki/wiki/Grymskull_Helm",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/dd/Grymskull_Helm_Icon.png/300px-Grymskull_Helm_Icon.png"
     },
     {
         "name": "Guiding Light",
@@ -954,7 +1040,8 @@
         "": "X: -29\nY: -284",
         "description": "Cast Light",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Guiding_Light"
+        "wikiUrl": "https://bg3.wiki/wiki/Guiding_Light",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/82/Guiding_Light_Icon.png/300px-Guiding_Light_Icon.png"
     },
     {
         "name": "Hamarhraft",
@@ -965,7 +1052,8 @@
         "": "X: -84\nY: 630",
         "description": "When the wearer Jumps, they deal \u26c8\ufe0f(1d6) in a 3 m / 10 ft radius upon landing.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Hamarhraft"
+        "wikiUrl": "https://bg3.wiki/wiki/Hamarhraft",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/39/Hamarhraft_Icon.png/300px-Hamarhraft_Icon.png"
     },
     {
         "name": "Haste Helm",
@@ -976,7 +1064,8 @@
         "": "X: 32\nY: 403",
         "description": "At the start of combat, gain Momentum for 3 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Haste_Helm"
+        "wikiUrl": "https://bg3.wiki/wiki/Haste_Helm",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/07/Haste_Helm_Icon.png/300px-Haste_Helm_Icon.png"
     },
     {
         "name": "Harold",
@@ -987,7 +1076,8 @@
         "": "X: 277\nY: -249",
         "description": "When you deal damage to a target with a ranged weapon, it must succeed a Charisma Charisma Save or be Baned for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Harold"
+        "wikiUrl": "https://bg3.wiki/wiki/Harold",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/bf/Heavy_Crossbow_PlusOne_Icon.png/300px-Heavy_Crossbow_PlusOne_Icon.png"
     },
     {
         "name": "Hedge Wanderer Armour",
@@ -998,7 +1088,8 @@
         "": "X: 205\nY: 515",
         "description": "Gain a +1 bonus to Dexterity Saving Throws and Dexterity Checks.\nNature +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Hedge_Wanderer_Armour"
+        "wikiUrl": "https://bg3.wiki/wiki/Hedge_Wanderer_Armour",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c8/Hide_Armour_PlusOne_Icon.png/300px-Hide_Armour_PlusOne_Icon.png"
     },
     {
         "name": "Hellrider's Pride",
@@ -1009,7 +1100,8 @@
         "": "X: -52\nY: 72",
         "description": "When you heal a creature, grant them Blade Ward for 2 turns.\nStrength Saving Throws +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Hellrider's_Pride"
+        "wikiUrl": "https://bg3.wiki/wiki/Hellrider's_Pride",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/78/Metallic_Gloves_Magical_Icon.png/300px-Metallic_Gloves_Magical_Icon.png"
     },
     {
         "name": "Helmet of Autonomy",
@@ -1020,7 +1112,8 @@
         "": "X: 82\nY: -241",
         "description": "Proficiency in Wisdom Saving Throws.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Helmet_of_Autonomy"
+        "wikiUrl": "https://bg3.wiki/wiki/Helmet_of_Autonomy",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/6c/Helmet_of_Autonomy_Icon.png/300px-Helmet_of_Autonomy_Icon.png"
     },
     {
         "name": "Helmet of Smiting",
@@ -1031,7 +1124,8 @@
         "": "X: 163\nY: -248",
         "description": "Gain \u2764\ufe0f(Charisma modifier) Temporary Hit Points when you inflict a condition with one of your Smite spells.\nConstitution Saving Throws +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Helmet_of_Smiting"
+        "wikiUrl": "https://bg3.wiki/wiki/Helmet_of_Smiting",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/83/Metal_Helmet_Magical_Icon.png/300px-Metal_Helmet_Magical_Icon.png"
     },
     {
         "name": "Herbalist's Gloves",
@@ -1042,7 +1136,8 @@
         "": "X: 54 \nY: -95",
         "description": "If you heal a Poisoned creature, it is no longer Poisoned.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Herbalist's_Gloves"
+        "wikiUrl": "https://bg3.wiki/wiki/Herbalist's_Gloves",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/82/Leather_Gloves_Magical_Icon.png/300px-Leather_Gloves_Magical_Icon.png"
     },
     {
         "name": "Hoarfrost Boots",
@@ -1053,7 +1148,8 @@
         "": "X: 1359\nY: -685",
         "description": "You cannot fall Prone while traversing icy terrain.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Hoarfrost_Boots"
+        "wikiUrl": "https://bg3.wiki/wiki/Hoarfrost_Boots",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/8b/Hoarfrost_Boots_Icon.png/300px-Hoarfrost_Boots_Icon.png"
     },
     {
         "name": "Holy Lance Helm",
@@ -1064,7 +1160,8 @@
         "": "X: 120 \nY: 35",
         "description": "When a creature misses an Attack Roll against you, they must succeed a Dexterity Saving Throw or take \u2600\ufe0f(1d4).\nConstitution Saving Throws +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Holy_Lance_Helm"
+        "wikiUrl": "https://bg3.wiki/wiki/Holy_Lance_Helm",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c5/Holy_Lance_Helm_Icon.png/300px-Holy_Lance_Helm_Icon.png"
     },
     {
         "name": "Hunter's Dagger",
@@ -1075,7 +1172,8 @@
         "": "X: 273 \nY: -32",
         "description": "On a hit, the target must succeed a Constitution Saving Throw or become Ruptured.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Hunter's_Dagger"
+        "wikiUrl": "https://bg3.wiki/wiki/Hunter's_Dagger",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/aa/Dagger_PlusOne_Icon.png/300px-Dagger_PlusOne_Icon.png"
     },
     {
         "name": "Hunting Shortbow",
@@ -1086,7 +1184,8 @@
         "": "X: 178\nY: 562",
         "description": "Advantage against Monstrosity type enemies.\nCast Hunter's Mark once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Hunting_Shortbow"
+        "wikiUrl": "https://bg3.wiki/wiki/Hunting_Shortbow",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/dd/Shortbow_PlusOne_Icon.png/300px-Shortbow_PlusOne_Icon.png"
     },
     {
         "name": "Infernal Robe",
@@ -1097,7 +1196,8 @@
         "": "",
         "description": "Cast Fire Shield (Warm) once per Long Rest.\nResistance to Fire damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Infernal_Robe"
+        "wikiUrl": "https://bg3.wiki/wiki/Infernal_Robe",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/90/Infernal_Robe_Icon.png/300px-Infernal_Robe_Icon.png"
     },
     {
         "name": "Intransigent Warhammer",
@@ -1108,7 +1208,8 @@
         "": "X: -447\nY: -524",
         "description": "Knocks nearby creatures Prone after killing a target or landing a Critical Hit.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Intransigent_Warhammer"
+        "wikiUrl": "https://bg3.wiki/wiki/Intransigent_Warhammer",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d1/Warhammer_PlusOne_Icon.png/300px-Warhammer_PlusOne_Icon.png"
     },
     {
         "name": "Jagged Spear",
@@ -1119,7 +1220,8 @@
         "": "X: 334\nY: -37",
         "description": "On a hit, the target may receive Disadvantage on Constitution Saving Throws.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Jagged_Spear"
+        "wikiUrl": "https://bg3.wiki/wiki/Jagged_Spear",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/27/Jagged_Spear_Icon.png/300px-Jagged_Spear_Icon.png"
     },
     {
         "name": "Jorgoral's Greatsword",
@@ -1130,7 +1232,8 @@
         "": "X: -630 \nY: 327",
         "description": "Gain Colossal Onslaught weapon action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Jorgoral's_Greatsword"
+        "wikiUrl": "https://bg3.wiki/wiki/Jorgoral's_Greatsword",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/85/Jorgoral%27s_Greatsword_Icon.png/300px-Jorgoral%27s_Greatsword_Icon.png"
     },
     {
         "name": "Key of the Ancients",
@@ -1141,7 +1244,8 @@
         "": "X: -439\nY: -6",
         "description": "While you stand in front of the stone door in Nettie's room in the Druid Grove, you can open a shortcut to the Underground Passage.\nNature +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Key_of_the_Ancients"
+        "wikiUrl": "https://bg3.wiki/wiki/Key_of_the_Ancients",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/49/Key_of_the_Ancients_Icon.png/300px-Key_of_the_Ancients_Icon.png"
     },
     {
         "name": "Knife of the Undermountain King",
@@ -1152,7 +1256,8 @@
         "": "X: 1383 \nY: -812",
         "description": "When you roll 2 damage or less, reroll the dice.\nYou have Advantage on Attack Rolls againts Lightly or Heavily Obscured targets when using this weapon.\nYou land a Critical Hit when rolling a 19. ",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Knife_of_the_Undermountain_King"
+        "wikiUrl": "https://bg3.wiki/wiki/Knife_of_the_Undermountain_King",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/16/Duergar_Kings_Knife_Icon.png/300px-Duergar_Kings_Knife_Icon.png"
     },
     {
         "name": "Komira's Locket",
@@ -1163,7 +1268,8 @@
         "": "X: 260\nY: 543",
         "description": "Cast Dancing Lights",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Komira's_Locket"
+        "wikiUrl": "https://bg3.wiki/wiki/Komira's_Locket",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/8a/Cherished_Locket_Icon.png/300px-Cherished_Locket_Icon.png"
     },
     {
         "name": "Larethian's Wrath",
@@ -1174,7 +1280,8 @@
         "": "X: 1383 \nY: -812",
         "description": "Gain Razor Gale weapon action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Larethian's_Wrath"
+        "wikiUrl": "https://bg3.wiki/wiki/Larethian's_Wrath",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/89/Longsword_%2B1_Icon.png/300px-Longsword_%2B1_Icon.png"
     },
     {
         "name": "Light of Creation",
@@ -1185,7 +1292,8 @@
         "": "X: -29\nY: -284",
         "description": "Chance to Stun the wielder, unless it is a Construct.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Light_of_Creation"
+        "wikiUrl": "https://bg3.wiki/wiki/Light_of_Creation",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/09/Light_of_Creation_Icon.png/300px-Light_of_Creation_Icon.png"
     },
     {
         "name": "Linebreaker Boots",
@@ -1196,7 +1304,8 @@
         "": "X: 378\nY: -40",
         "description": "When you Dash or take a similar action, gain Wrath for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Linebreaker_Boots"
+        "wikiUrl": "https://bg3.wiki/wiki/Linebreaker_Boots",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c3/Linebreaker_Boots_Icon.png/300px-Linebreaker_Boots_Icon.png"
     },
     {
         "name": "Loviatar's Scourge",
@@ -1207,7 +1316,8 @@
         "": "X: 338\nY: -22",
         "description": "Deals an additional \ud83d\udc80(1d6) to nearby targets, including the wielder.\nResistance to Necrotic damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Loviatar's_Scourge"
+        "wikiUrl": "https://bg3.wiki/wiki/Loviatar's_Scourge",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/51/Mace_PlusOne_Icon.png/300px-Mace_PlusOne_Icon.png"
     },
     {
         "name": "Luminous Armour",
@@ -1218,7 +1328,8 @@
         "": "X: 176 \nY: -247",
         "description": "When you deal Radiant damage, you cause a Radiant shockwavet that inflicts Radiating Orb in a 3 m / 10 ft radius to enemies for 1 turn.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Luminous_Armour"
+        "wikiUrl": "https://bg3.wiki/wiki/Luminous_Armour",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/83/Luminous_Armour_Icon.png/300px-Luminous_Armour_Icon.png"
     },
     {
         "name": "Mage's Friend",
@@ -1229,7 +1340,8 @@
         "": "X: -29\nY: -284",
         "description": "Arcana +1\nReligion +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Mage's_Friend"
+        "wikiUrl": "https://bg3.wiki/wiki/Mage's_Friend",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/40/The_Mages_Friend_Icon.png/300px-The_Mages_Friend_Icon.png"
     },
     {
         "name": "Mask of the Shapeshifter",
@@ -1240,7 +1352,8 @@
         "": "",
         "description": "Cast Disguise Self",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Mask_of_the_Shapeshifter"
+        "wikiUrl": "https://bg3.wiki/wiki/Mask_of_the_Shapeshifter",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/06/Mask_of_the_Shapeshifter_Icon.png/300px-Mask_of_the_Shapeshifter_Icon.png"
     },
     {
         "name": "Melf's First Staff",
@@ -1251,7 +1364,8 @@
         "": "X: 112 \nY: -89",
         "description": "Gain a +1 bonus to Spell Save DC and spell Attack Rolls.\nCast Melf's Acid Arrow once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Melf's_First_Staff"
+        "wikiUrl": "https://bg3.wiki/wiki/Melf's_First_Staff",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/02/Corellons_Grace_Icon.png/300px-Corellons_Grace_Icon.png"
     },
     {
         "name": "Merregon Halberd",
@@ -1262,7 +1376,8 @@
         "": "X: 575\nY: 377",
         "description": "",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Merregon_Halberd"
+        "wikiUrl": "https://bg3.wiki/wiki/Merregon_Halberd",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/25/Merregon_Halberd_Icon.png/300px-Merregon_Halberd_Icon.png"
     },
     {
         "name": "Monster Slayer Glaive",
@@ -1273,7 +1388,8 @@
         "": "X: 273 \nY: -32",
         "description": "Deals an additional \ud83c\udfb2(1d4) damage against monstrosity type enemies.\nJump distance is increased by 1.5m / 5ft.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Monster_Slayer_Glaive"
+        "wikiUrl": "https://bg3.wiki/wiki/Monster_Slayer_Glaive",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/ef/Glaive_PlusOne_Icon.png/300px-Glaive_PlusOne_Icon.png"
     },
     {
         "name": "Moondrop Pendant",
@@ -1284,7 +1400,8 @@
         "": "X: -332\nY: 136",
         "description": "You don't provoke Attacks of Opportunity while you're at 50% Hit Points or less.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Moondrop_Pendant"
+        "wikiUrl": "https://bg3.wiki/wiki/Moondrop_Pendant",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/12/Moondrop_Pendant_Icon.png/300px-Moondrop_Pendant_Icon.png"
     },
     {
         "name": "Mourning Frost",
@@ -1295,7 +1412,8 @@
         "": "",
         "description": "Deal an additional \u2744\ufe0f(1) when you deal any cold damage, and possibly inflict Chill.\nCast Ray of Frost",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Mourning_Frost"
+        "wikiUrl": "https://bg3.wiki/wiki/Mourning_Frost",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/36/Mourning_Frost_Icon.png/300px-Mourning_Frost_Icon.png"
     },
     {
         "name": "Mystra's Grace",
@@ -1306,7 +1424,8 @@
         "": "X: -34\nY: -264",
         "description": "Cast Feather Fall",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Mystra's_Grace"
+        "wikiUrl": "https://bg3.wiki/wiki/Mystra's_Grace",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1a/Leather_Boots_Magical_Icon.png/300px-Leather_Boots_Magical_Icon.png"
     },
     {
         "name": "Nature's Snare",
@@ -1317,7 +1436,8 @@
         "": "X: -425 \nY: -200",
         "description": "On a hit, the target may become Ensnared if it is not a plant or beast.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Nature's_Snare"
+        "wikiUrl": "https://bg3.wiki/wiki/Nature's_Snare",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/ed/Natures_Snare_Icon.png/300px-Natures_Snare_Icon.png"
     },
     {
         "name": "Necklace of Elemental Augmentation",
@@ -1328,7 +1448,8 @@
         "": "X: 1359\nY: -685",
         "description": "When you deal Acid, Cold, Fire, Lightning or Thunder damage with Cantrips, add your Spellcasting Modifier to the damage dealt.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Necklace_of_Elemental_Augmentation"
+        "wikiUrl": "https://bg3.wiki/wiki/Necklace_of_Elemental_Augmentation",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1b/Necklace_of_Elemental_Augmentation.png/300px-Necklace_of_Elemental_Augmentation.png"
     },
     {
         "name": "Pale Oak",
@@ -1339,7 +1460,8 @@
         "": "X: -470\nY: 22",
         "description": "Immune to Ensnare by Druidic Vines.\nCast Faithwarden's Vines once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Pale_Oak"
+        "wikiUrl": "https://bg3.wiki/wiki/Pale_Oak",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1d/Pale_Oak_Staff_Icon.png/300px-Pale_Oak_Staff_Icon.png"
     },
     {
         "name": "Pearl of Power Amulet",
@@ -1350,7 +1472,8 @@
         "": "X: 112 \nY: -88",
         "description": "You can replenish expended Spell Slots of your choice once per Long Rest.\nRestores a single spell slot of 3rd level or lower.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Pearl_of_Power_Amulet"
+        "wikiUrl": "https://bg3.wiki/wiki/Pearl_of_Power_Amulet",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/ad/Pearl_of_Power_Amulet_Icon.png/300px-Pearl_of_Power_Amulet_Icon.png"
     },
     {
         "name": "Periapt of Wound Closure",
@@ -1361,7 +1484,8 @@
         "": "X: 18 \nY: 22",
         "description": "When Downed, automatically stabilise at the start of the turn.\nWhen you regain Hit Points, heal for the maximum number.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Periapt_of_Wound_Closure"
+        "wikiUrl": "https://bg3.wiki/wiki/Periapt_of_Wound_Closure",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/36/Periapt_of_Wound_Closure_Icon.png/300px-Periapt_of_Wound_Closure_Icon.png"
     },
     {
         "name": "Phalar Aluve",
@@ -1372,7 +1496,8 @@
         "": "X: 116\nY: -192",
         "description": "Cast Phalar Aluve: Shriek once per Short Rest.\nCast Phalar Aluve: Sing once per Short Rest.\nPerformance +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Phalar_Aluve"
+        "wikiUrl": "https://bg3.wiki/wiki/Phalar_Aluve",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/89/Longsword_%2B1_Icon.png/300px-Longsword_%2B1_Icon.png"
     },
     {
         "name": "Poisoner's Robe",
@@ -1383,7 +1508,8 @@
         "": "X: -561\nY: -369",
         "description": "Deal an additional \ud83d\udc0d(1d4) when casting a spell that deals Poison damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Poisoner's_Robe"
+        "wikiUrl": "https://bg3.wiki/wiki/Poisoner's_Robe",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/9f/Poisoners_Robe_Icon.png/300px-Poisoners_Robe_Icon.png"
     },
     {
         "name": "Psychic Spark",
@@ -1394,7 +1520,8 @@
         "": "X: 112 \nY: -89",
         "description": "Magic Missile shoots an additional missile when cast.\nCast Magic Missile once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Psychic_Spark"
+        "wikiUrl": "https://bg3.wiki/wiki/Psychic_Spark",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/99/Amulet_of_Misty_Step_Icon.png/300px-Amulet_of_Misty_Step_Icon.png"
     },
     {
         "name": "Rain Dancer",
@@ -1405,7 +1532,8 @@
         "": "X: 205\nY: 515",
         "description": "Cast Create Water once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Rain_Dancer"
+        "wikiUrl": "https://bg3.wiki/wiki/Rain_Dancer",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/8a/Rain_Dancer_Staff_Icon.png/300px-Rain_Dancer_Staff_Icon.png"
     },
     {
         "name": "Reason's Grasp",
@@ -1416,7 +1544,8 @@
         "": "X: 37\nY: 644",
         "description": "Gain \u2764\ufe0f(15) Temporary Hit Points when your Rage ends.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Reason's_Grasp"
+        "wikiUrl": "https://bg3.wiki/wiki/Reason's_Grasp",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/a7/Reasons_Grasp_Icon.png/300px-Reasons_Grasp_Icon.png"
     },
     {
         "name": "Returning Pike",
@@ -1427,7 +1556,8 @@
         "": "X: -102 \nY: 426",
         "description": "This weapon will return to its owner when thrown.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Returning_Pike"
+        "wikiUrl": "https://bg3.wiki/wiki/Returning_Pike",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5f/Pike_PlusOne_Icon.png/300px-Pike_PlusOne_Icon.png"
     },
     {
         "name": "Ring of Absolute Force",
@@ -1438,7 +1568,8 @@
         "": "X: -626 \nY: 331",
         "description": "Cast Thunderwave once per Short Rest ",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Absolute_Force"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Absolute_Force",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/55/Ring_of_Absolute_Force_Icon.png/300px-Ring_of_Absolute_Force_Icon.png"
     },
     {
         "name": "Ring of Arcane Synergy",
@@ -1449,7 +1580,8 @@
         "": "X: 1358\nY: -845",
         "description": "When you deal damage with a Cantrip, gain Arcane Synergy for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Arcane_Synergy"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Arcane_Synergy",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/43/Ring_of_Arcane_Synergy_Icon.png/300px-Ring_of_Arcane_Synergy_Icon.png"
     },
     {
         "name": "Ring of Colour Spray",
@@ -1460,7 +1592,8 @@
         "": "X: 326\nY: 495",
         "description": "Cast Colour Spray once per battle.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Colour_Spray"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Colour_Spray",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5d/Ring_of_Colour_Spray_Icon.png/300px-Ring_of_Colour_Spray_Icon.png"
     },
     {
         "name": "Ring of Elemental Infusion",
@@ -1471,7 +1604,8 @@
         "": "X: 1228\nY: -808",
         "description": "When you deal Acid, Cold, Fire, Lightning or Thunder damage with Spells or Cantrips, you deal an additional \ud83c\udfb2(1d4) damage of that element on your next succesful weapon attack, lasting until the end of your next turn.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Elemental_Infusion"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Elemental_Infusion",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f2/Ring_of_Elemental_Infusion_Icon.png/300px-Ring_of_Elemental_Infusion_Icon.png"
     },
     {
         "name": "Ring of Flinging",
@@ -1482,7 +1616,8 @@
         "": "X: 205\nY: 515",
         "description": "Gain \ud83c\udfb2(1d4) bonus to throw damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Flinging"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Flinging",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/40/The_Mages_Friend_Icon.png/300px-The_Mages_Friend_Icon.png"
     },
     {
         "name": "Ring of Jumping",
@@ -1493,7 +1628,8 @@
         "": "X: 54 \nY: -95",
         "description": "Cast Enhance Leap once per Short Rest. ",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Jumping"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Jumping",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/3b/Ring_of_Jumping_Icon.png/300px-Ring_of_Jumping_Icon.png"
     },
     {
         "name": "Ring of Mind-Shielding",
@@ -1504,7 +1640,8 @@
         "": "X: 112 \nY: -88",
         "description": "Advantage on Saving Throws against being Charmed.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Mind-Shielding"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Mind-Shielding",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/13/Ring_of_Mind-Shielding_Icon.png/300px-Ring_of_Mind-Shielding_Icon.png"
     },
     {
         "name": "Ring of Poison Resistance",
@@ -1515,7 +1652,8 @@
         "": "X: 338\nY: 14",
         "description": "Resistance to Poison damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Poison_Resistance"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Poison_Resistance",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1e/Ring_of_Poison_Resistance_Icon.png/300px-Ring_of_Poison_Resistance_Icon.png"
     },
     {
         "name": "Ring of Protection",
@@ -1526,7 +1664,8 @@
         "": "X: 81\nY: 74",
         "description": "Saving Throw +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Protection"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Protection",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/e1/Ring_of_Protection_Icon.png/300px-Ring_of_Protection_Icon.png"
     },
     {
         "name": "Ring of Restorative Gravity",
@@ -1537,7 +1676,8 @@
         "": "X: 112 \nY: -88",
         "description": "When you heal a creature, they are pulled 2m / 7ft towards you.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Restorative_Gravity"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Restorative_Gravity",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1f/Ring_of_Restorative_Gravity_Icon.png/300px-Ring_of_Restorative_Gravity_Icon.png"
     },
     {
         "name": "Ring of Salving",
@@ -1548,7 +1688,8 @@
         "": "X: 112 \nY: -88",
         "description": "When you heal a creature, you regain \u2764\ufe0f(2) Hit Points.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Salving"
+        "wikiUrl": "https://bg3.wiki/wiki/Ring_of_Salving",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1f/Ring_of_Restorative_Gravity_Icon.png/300px-Ring_of_Restorative_Gravity_Icon.png"
     },
     {
         "name": "Ritual Axe",
@@ -1559,7 +1700,8 @@
         "": "X: 338\nY: -22",
         "description": "On a hit, possibly inflict a \ud83c\udfb2(1d4) penalty to Attack Rolls and Saving Throws on target.\nIf the attacker still has 25% or more Hit Points, they take \ud83c\udff9(1d6) themselves.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ritual_Axe"
+        "wikiUrl": "https://bg3.wiki/wiki/Ritual_Axe",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f4/Handaxe_PlusOne_Icon.png/300px-Handaxe_PlusOne_Icon.png"
     },
     {
         "name": "Ritual Dagger",
@@ -1570,7 +1712,8 @@
         "": "X: 338\nY: -22",
         "description": "On a hit, receive a \ud83c\udfb2(1d4) bonus to Attack Rolls and Saving Throws until the end of your next turn.\nUse a Bonus Action to take \ud83d\udd2a(1d4) and receive a \ud83c\udfb2(1d4) bonus to Attack Rolls and Saving Throws. ",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Ritual_Dagger"
+        "wikiUrl": "https://bg3.wiki/wiki/Ritual_Dagger",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/aa/Dagger_PlusOne_Icon.png/300px-Dagger_PlusOne_Icon.png"
     },
     {
         "name": "Robe of Summer",
@@ -1581,7 +1724,8 @@
         "": "X: 178\nY: 79",
         "description": "Resistance to Cold damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Robe_of_Summer"
+        "wikiUrl": "https://bg3.wiki/wiki/Robe_of_Summer",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/31/Robe_of_Summer_Icon.png/300px-Robe_of_Summer_Icon.png"
     },
     {
         "name": "Robust Chain Shirt",
@@ -1592,7 +1736,8 @@
         "": "X: -626 \nY: 331",
         "description": "Deal \ud83c\udff9(1d4) to the attackers that hit you with a melee attack while you're at 50% Hit Points or less.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Robust_Chain_Shirt"
+        "wikiUrl": "https://bg3.wiki/wiki/Robust_Chain_Shirt",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/73/Robust_Chain_Shirt_Icon.png/300px-Robust_Chain_Shirt_Icon.png"
     },
     {
         "name": "Rupturing Blade",
@@ -1603,7 +1748,8 @@
         "": "X: 292\nY: -245",
         "description": "Gain Searing Blood weapon action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Rupturing_Blade"
+        "wikiUrl": "https://bg3.wiki/wiki/Rupturing_Blade",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/2e/Rapier_PlusOne_Icon.png/300px-Rapier_PlusOne_Icon.png"
     },
     {
         "name": "Safeguard Shield",
@@ -1614,7 +1760,8 @@
         "": "X: 178\nY: 562",
         "description": "Saving Throws +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Safeguard_Shield"
+        "wikiUrl": "https://bg3.wiki/wiki/Safeguard_Shield",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5a/Safeguard_Shield_Icon.png/300px-Safeguard_Shield_Icon.png"
     },
     {
         "name": "Sentient Amulet (Rare)",
@@ -1625,7 +1772,8 @@
         "": "X: -624\nY: 224",
         "description": "See wiki for risks when using this item.\nCast Shatter once per Short Rest.\nCast Ki Restoration once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sentient_Amulet_(Rare)"
+        "wikiUrl": "https://bg3.wiki/wiki/Sentient_Amulet_(Rare)",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f7/Sentient_Amulet_Icon.png/300px-Sentient_Amulet_Icon.png"
     },
     {
         "name": "Shadow of Menzoberranzan",
@@ -1636,7 +1784,8 @@
         "": "X: 50\nY: 75",
         "description": "You can become Invisible once per Long Rest for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Shadow_of_Menzoberranzan"
+        "wikiUrl": "https://bg3.wiki/wiki/Shadow_of_Menzoberranzan",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/e3/Shadow_of_Menzoberranzan_Icon.png/300px-Shadow_of_Menzoberranzan_Icon.png"
     },
     {
         "name": "Shapeshifter's Boon Ring",
@@ -1647,7 +1796,8 @@
         "": "X: 222\nY: 542",
         "description": "Gain \ud83c\udfb2(1d4) bonus to all checks while shapeshifting or disguising yourself",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Shapeshifter's_Boon_Ring"
+        "wikiUrl": "https://bg3.wiki/wiki/Shapeshifter's_Boon_Ring",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d0/Shapeshifter%27s_Boon_Ring_Icon.png/300px-Shapeshifter%27s_Boon_Ring_Icon.png"
     },
     {
         "name": "Shattered Flail",
@@ -1658,7 +1808,8 @@
         "": "X: 34\nY: 605 ",
         "description": "Regain \u2764\ufe0f(1d6) Hit Points when you hit an enemy. You can go Mad if you don't hit an enemy each turn.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Shattered_Flail"
+        "wikiUrl": "https://bg3.wiki/wiki/Shattered_Flail",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/cf/Shattered_Flail_Icon.png/300px-Shattered_Flail_Icon.png"
     },
     {
         "name": "Shining Staver-of-Skulls",
@@ -1669,7 +1820,8 @@
         "": "X: -630 \nY: 327",
         "description": "",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Shining_Staver-of-Skulls"
+        "wikiUrl": "https://bg3.wiki/wiki/Shining_Staver-of-Skulls",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/9a/Light_Hammer_PlusOne_Icon.png/300px-Light_Hammer_PlusOne_Icon.png"
     },
     {
         "name": "Shortsword of First Blood",
@@ -1680,7 +1832,8 @@
         "": "X: 73\nY: -187",
         "description": "Deals an additional \ud83c\udff9(1d8) to targets that still have all their Hit Points.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Shortsword_of_First_Blood"
+        "wikiUrl": "https://bg3.wiki/wiki/Shortsword_of_First_Blood",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/86/Shortsword_PlusOne_Icon.png/300px-Shortsword_PlusOne_Icon.png"
     },
     {
         "name": "Sickle of BOOOAL",
@@ -1691,7 +1844,8 @@
         "": "X: -69\nY: -240",
         "description": "Advantage on Attack Rolls against Bleeding creatures, as long as there are Kuo-toa to worship BOOOAL.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sickle_of_BOOOAL"
+        "wikiUrl": "https://bg3.wiki/wiki/Sickle_of_BOOOAL",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/de/Sickle_of_BOOOAL_Icon.png/300px-Sickle_of_BOOOAL_Icon.png"
     },
     {
         "name": "Silver Pendant",
@@ -1702,7 +1856,8 @@
         "": "X: 160\nY: 373",
         "description": "Cast Guidance",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Silver_Pendant"
+        "wikiUrl": "https://bg3.wiki/wiki/Silver_Pendant",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/db/Silver_Pendant_Icon.png/300px-Silver_Pendant_Icon.png"
     },
     {
         "name": "Skybreaker",
@@ -1713,7 +1868,8 @@
         "": "X: 27\nY: -298",
         "description": "Cast Searing Smite once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Skybreaker"
+        "wikiUrl": "https://bg3.wiki/wiki/Skybreaker",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/8e/Skybreaker_Light_Hammer_Icon.png/300px-Skybreaker_Light_Hammer_Icon.png"
     },
     {
         "name": "Slippery Chain Shirt",
@@ -1724,7 +1880,8 @@
         "": "X: -400\nY: 329",
         "description": "When you heal a creature, it automatically Disengages and won't trigger Opportunity Attacks.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Slippery_Chain_Shirt"
+        "wikiUrl": "https://bg3.wiki/wiki/Slippery_Chain_Shirt",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/16/Chain_Shirt_PlusOne_Icon.png/300px-Chain_Shirt_PlusOne_Icon.png"
     },
     {
         "name": "Smuggler's Ring",
@@ -1735,7 +1892,8 @@
         "": "X: 57\nY: 514",
         "description": "Stealth +2\nSleight of Hand +2\nCharisma -1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Smuggler's_Ring"
+        "wikiUrl": "https://bg3.wiki/wiki/Smuggler's_Ring",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/8a/Smugglers_Ring_Icon.png/300px-Smugglers_Ring_Icon.png"
     },
     {
         "name": "Sorrow",
@@ -1746,7 +1904,8 @@
         "": "X: 178\nY: 79",
         "description": "Cast Sorrowful Lash once per turn.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sorrow"
+        "wikiUrl": "https://bg3.wiki/wiki/Sorrow",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/ef/Glaive_PlusOne_Icon.png/300px-Glaive_PlusOne_Icon.png"
     },
     {
         "name": "Soulbreaker Greatsword",
@@ -1757,7 +1916,8 @@
         "": "X: 1409\nY: -766",
         "description": "Deal an additional \ud83d\udc41\ufe0f(1d4) if you are Githyanki.\nGain a +2 bonus to Initiative Rolls.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Soulbreaker_Greatsword"
+        "wikiUrl": "https://bg3.wiki/wiki/Soulbreaker_Greatsword",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/81/Soulbreaker_Greatsword_Icon.png/300px-Soulbreaker_Greatsword_Icon.png"
     },
     {
         "name": "Speedy Reply",
@@ -1768,7 +1928,8 @@
         "": "X: 25\nY: 603",
         "description": "On a hit, gain Momentum for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Speedy_Reply"
+        "wikiUrl": "https://bg3.wiki/wiki/Speedy_Reply",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/fd/Speedy_Reply_Scimitar_Icon.png/300px-Speedy_Reply_Scimitar_Icon.png"
     },
     {
         "name": "Spellthief",
@@ -1779,7 +1940,8 @@
         "": "X: 205\nY: 515",
         "description": "Regain a Level 1 Spell Slot when you land a Critical hit with the Spellthief once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Spellthief"
+        "wikiUrl": "https://bg3.wiki/wiki/Spellthief",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/36/Longbow_PlusOne_Icon.png/300px-Longbow_PlusOne_Icon.png"
     },
     {
         "name": "Spidersilk Armour",
@@ -1790,7 +1952,8 @@
         "": "X: 336 \nY: 43",
         "description": "Stealthy: Gain +1 bonus to Stealth Checks.\nAdvantage on Constitution Saving Throws.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Spidersilk_Armour"
+        "wikiUrl": "https://bg3.wiki/wiki/Spidersilk_Armour",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/81/Drow_Studded_Leather_Armour_Icon.png/300px-Drow_Studded_Leather_Armour_Icon.png"
     },
     {
         "name": "Spiderstep Boots",
@@ -1801,7 +1964,8 @@
         "": "X: -513\nY: -409",
         "description": "Immune to being Enwebbed. Your Movement Speed is not affected by web surfaces.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Spiderstep_Boots"
+        "wikiUrl": "https://bg3.wiki/wiki/Spiderstep_Boots",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/59/Spiderstep_Boots_Icon.png/300px-Spiderstep_Boots_Icon.png"
     },
     {
         "name": "Springstep Boots",
@@ -1812,7 +1976,8 @@
         "": "X: 296 \nY: 71",
         "description": "When you Dash or take a similar action, gain Momentum for 3 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Springstep_Boots"
+        "wikiUrl": "https://bg3.wiki/wiki/Springstep_Boots",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/6a/Springstep_Boots_Icon.png/300px-Springstep_Boots_Icon.png"
     },
     {
         "name": "Spurred Band",
@@ -1823,7 +1988,8 @@
         "": "",
         "description": "When you start your turn with 50% Hit Points or less, gain Momentum for 1 turn.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Spurred_Band"
+        "wikiUrl": "https://bg3.wiki/wiki/Spurred_Band",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/9/97/Spurred_Band_Icon.png/300px-Spurred_Band_Icon.png"
     },
     {
         "name": "Staff of Arcane Blessing",
@@ -1834,7 +2000,8 @@
         "": "X: 163\nY: -432",
         "description": "Bless becomes Mystra's Blessing. \nMystra's Blessing grants an additional \ud83c\udfb2(1d4) to Weapon Attack Rolls and Saving Throws, and an additional \ud83c\udfb2(2d4) to Spell Attack Rolls.\nCast Bless (Mystra's Blessing) once per Long Rest",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Staff_of_Arcane_Blessing"
+        "wikiUrl": "https://bg3.wiki/wiki/Staff_of_Arcane_Blessing",
+        "imgUrl": "https://bg3.wiki/w/images/e/ed/Staff_of_Arcane_Blessing_Icon.png"
     },
     {
         "name": "Staff of Crones",
@@ -1845,7 +2012,8 @@
         "": "X: -413\nY: 607",
         "description": "Cast Ray of Sickness once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Staff_of_Crones"
+        "wikiUrl": "https://bg3.wiki/wiki/Staff_of_Crones",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/a6/Staff_of_Crones_Icon.png/300px-Staff_of_Crones_Icon.png"
     },
     {
         "name": "Strange Conduit Ring",
@@ -1856,7 +2024,8 @@
         "": "X: 1359\nY: -685",
         "description": "Deal an additional \ud83d\udc41\ufe0f(1d4) with weapon attacks while you are Concentrating on a spell.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Strange_Conduit_Ring"
+        "wikiUrl": "https://bg3.wiki/wiki/Strange_Conduit_Ring",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/e4/Strange_Conduit_Ring_Icon.png/300px-Strange_Conduit_Ring_Icon.png"
     },
     {
         "name": "Sunwalker's Gift",
@@ -1867,7 +2036,8 @@
         "": "X: 112 \nY: -89",
         "description": "Gain Darkvision.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sunwalker's_Gift"
+        "wikiUrl": "https://bg3.wiki/wiki/Sunwalker's_Gift",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/52/Sunwalkers_Gift_Icon.png/300px-Sunwalkers_Gift_Icon.png"
     },
     {
         "name": "Sussur Dagger",
@@ -1878,7 +2048,8 @@
         "": "X: -447\nY: -377",
         "description": "On a hit, Silence target.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sussur_Dagger"
+        "wikiUrl": "https://bg3.wiki/wiki/Sussur_Dagger",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/05/Sussur_Dagger_Icon.png/300px-Sussur_Dagger_Icon.png"
     },
     {
         "name": "Sussur Greatsword",
@@ -1889,7 +2060,8 @@
         "": "X: -447\nY: -377",
         "description": "On a hit, Silence target.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sussur_Greatsword"
+        "wikiUrl": "https://bg3.wiki/wiki/Sussur_Greatsword",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1e/Sussur_Greatsword_Icon.png/300px-Sussur_Greatsword_Icon.png"
     },
     {
         "name": "Sussur Sickle",
@@ -1900,7 +2072,8 @@
         "": "X: -447\nY: -377",
         "description": "On a hit, Silence target.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sussur_Sickle"
+        "wikiUrl": "https://bg3.wiki/wiki/Sussur_Sickle",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/2a/Sussur_Sickle_Icon.png/300px-Sussur_Sickle_Icon.png"
     },
     {
         "name": "Svartlebee's Woundseeker",
@@ -1911,7 +2084,8 @@
         "": "X: 64\nY: 589",
         "description": "Gains a \ud83c\udfb2(1d4) bonus to Attack Rolls with this weapon when attacking creatures that have already taken damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Svartlebee's_Woundseeker"
+        "wikiUrl": "https://bg3.wiki/wiki/Svartlebee's_Woundseeker",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/49/Reinforced_Greatsword_Icon.png/300px-Reinforced_Greatsword_Icon.png"
     },
     {
         "name": "Swiresy Shoes",
@@ -1922,7 +2096,8 @@
         "": "X: -102 \nY: 426",
         "description": "Jump distance is increased by 1.5m / 5ft.\nAcrobatics +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Swiresy_Shoes"
+        "wikiUrl": "https://bg3.wiki/wiki/Swiresy_Shoes",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/6f/Swiresy_Shoes_Icon.png/300px-Swiresy_Shoes_Icon.png"
     },
     {
         "name": "Sword of Justice",
@@ -1933,7 +2108,8 @@
         "": "X: 110 \nY: 560",
         "description": "Cast Shield of Faith once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sword_of_Justice"
+        "wikiUrl": "https://bg3.wiki/wiki/Sword_of_Justice",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/db/Sword_of_Justice_Icon.png/300px-Sword_of_Justice_Icon.png"
     },
     {
         "name": "Sword of Screams",
@@ -1944,7 +2120,8 @@
         "": "X: -644\nY: 302",
         "description": "",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Sword_of_Screams"
+        "wikiUrl": "https://bg3.wiki/wiki/Sword_of_Screams",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/2e/Rapier_PlusOne_Icon.png/300px-Rapier_PlusOne_Icon.png"
     },
     {
         "name": "Tarnished Charm",
@@ -1955,7 +2132,8 @@
         "": "X: 195\nY: 546",
         "description": "The DC of Death Saving Throws for the wearer is lowered from 10 to 5.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Tarnished_Charm"
+        "wikiUrl": "https://bg3.wiki/wiki/Tarnished_Charm",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/35/Tarnished_Charm_Icon.png/300px-Tarnished_Charm_Icon.png"
     },
     {
         "name": "The Amulet of Lost Voices",
@@ -1966,7 +2144,8 @@
         "": "X: -290\nY: -235",
         "description": "Cast Speak with Dead once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Amulet_of_Lost_Voices"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Amulet_of_Lost_Voices",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/a7/Amulet_of_Lost_Voices_Icon.png/300px-Amulet_of_Lost_Voices_Icon.png"
     },
     {
         "name": "The Baneful",
@@ -1977,7 +2156,8 @@
         "": "X: 112 \nY: -89",
         "description": "The Warlock bound to this weapon is always Proficient with it. The weapon's damage is magical.\nGain a +1 bonus to damage and Attack Rolls with this weapon.\nOn a hit, possibly inflict Bane your target.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Baneful"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Baneful",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/80/Githyanki_Shortsword_Icon.png/300px-Githyanki_Shortsword_Icon.png"
     },
     {
         "name": "The Blast Pendant",
@@ -1988,7 +2168,8 @@
         "": "X: 121\nY:-245",
         "description": "Use a Bonus Action to consume Lightning Charges to deal additional damage on your next Lightning Spell or Cantrip once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Blast_Pendant"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Blast_Pendant",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/ed/The_Blast_Pendant_Icon.png/300px-The_Blast_Pendant_Icon.png"
     },
     {
         "name": "The Blood of Lathander",
@@ -1999,7 +2180,8 @@
         "": "X: 1065\nY: -778",
         "description": "Regain \u2764\ufe0f(2d6) Hit Points when your Hit Points are reduced to 0 once per Long Rest. Allies within 9m also regain \u2764\ufe0f(1d6) Hit Points.\nThis weapon shines with a glowing light in a radius of 6m. In combat, fiends and undead standing in the light are Blinded.\nCast Sunbeam once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Blood_of_Lathander"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Blood_of_Lathander",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f5/The_Blood_of_Lathander_Icon.png/300px-The_Blood_of_Lathander_Icon.png"
     },
     {
         "name": "The Deathstalker Mantle",
@@ -2010,7 +2192,8 @@
         "": "",
         "description": "You can become Invisible for 2 turns after killing an enemy, once per turn.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Deathstalker_Mantle"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Deathstalker_Mantle",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c0/The_Deathstalker_Mantle_Icon.png/300px-The_Deathstalker_Mantle_Icon.png"
     },
     {
         "name": "The Ever-Seeing Eye",
@@ -2021,7 +2204,8 @@
         "": "X: -417\nY: 605",
         "description": "Cast Protection from Evil and Good once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Ever-Seeing_Eye"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Ever-Seeing_Eye",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/1a/The_Ever-Seeing_Eye_Icon.png/300px-The_Ever-Seeing_Eye_Icon.png"
     },
     {
         "name": "The Graceful Cloth (Esther)",
@@ -2032,7 +2216,8 @@
         "": "X: 18 \nY: 22",
         "description": "Gain a +1 bonus to Dexterity Saving Throws.\nJump distance is increased by 1.5m / 5ft.\nDexterity +2 (up to 20)",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Graceful_Cloth"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Graceful_Cloth",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/2e/The_Graceful_Cloth_Icon.png/300px-The_Graceful_Cloth_Icon.png"
     },
     {
         "name": "The Joltshooter",
@@ -2043,7 +2228,8 @@
         "": "X: -52\nY: 621",
         "description": "When you deal damage with this weapon, gain 2 Lightning Charges.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Joltshooter"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Joltshooter",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d9/The_Joltshooter_Icon.png/300px-The_Joltshooter_Icon.png"
     },
     {
         "name": "The Jolty Vest",
@@ -2054,7 +2240,8 @@
         "": "X: 292\nY: -245",
         "description": "When you are hit with a melee attack while having Lightning Charges, the attacker must succeed a Dexterity Saving Throw or become Shocked.\nYou take 1 less Slashing damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Jolty_Vest"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Jolty_Vest",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/f5/The_Jolty_Vest_Icon.png/300px-The_Jolty_Vest_Icon.png"
     },
     {
         "name": "The Lifebringer",
@@ -2065,7 +2252,8 @@
         "": "X: 112 \nY: -89",
         "description": "Gain \u2764\ufe0f(3) Temporary Hit Points when you gain Lightning Charges.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Lifebringer"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Lifebringer",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c3/The_Lifebringer_Icon.png/300px-The_Lifebringer_Icon.png"
     },
     {
         "name": "The Oakfather's Embrace",
@@ -2076,7 +2264,8 @@
         "": "X: -360\nY: -115",
         "description": "Deal \u2600\ufe0f(1d6) to the attacker if they are undead. Attackers that are beasts receive an additional \u2600\ufe0f(1d6).",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Oakfather's_Embrace"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Oakfather's_Embrace",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c8/Hide_Armour_PlusOne_Icon.png/300px-Hide_Armour_PlusOne_Icon.png"
     },
     {
         "name": "The Protecty Sparkswall",
@@ -2087,7 +2276,8 @@
         "": "X: -645\nY: 360",
         "description": "Gain a +1 bonus to Spell Save DC.\nGain a +1 bonus to Saving Throws and \ud83d\udee1\ufe0f + 1 AC when you have Lightning Charges.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Protecty_Sparkswall"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Protecty_Sparkswall",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/55/The_Protecty_Sparkswall_Icon.png/300px-The_Protecty_Sparkswall_Icon.png"
     },
     {
         "name": "The Real Sparky Sparkswall",
@@ -2098,7 +2288,8 @@
         "": "X: -695 \nY: 420",
         "description": "Use an Action to consume 3 Lightning Charges to Jolts nearby enemies and deal \u26a1(1d4) once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Real_Sparky_Sparkswall"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Real_Sparky_Sparkswall",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c2/The_Real_Sparky_Sparkswall_Icon.png/300px-The_Real_Sparky_Sparkswall_Icon.png"
     },
     {
         "name": "The Shadespell Circlet",
@@ -2109,7 +2300,8 @@
         "": "X: 112 \nY: -88",
         "description": "While you are obscured in shadow, your spells gain a +1 bonus to Spell Save DC, making them more likely to succeed.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Shadespell_Circlet"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Shadespell_Circlet",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/23/The_Shadespell_Circlet_Icon.png/300px-The_Shadespell_Circlet_Icon.png"
     },
     {
         "name": "The Skinburster",
@@ -2120,7 +2312,8 @@
         "": "X: 1359\nY: -685",
         "description": "On a hit, gain Force Conduit for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Skinburster"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Skinburster",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/6c/Halberd_PlusOne_Icon.png/300px-Halberd_PlusOne_Icon.png"
     },
     {
         "name": "The Sparkle Hands",
@@ -2131,7 +2324,8 @@
         "": "X: 95\nY: 210",
         "description": "On a hit with an unarmed attack, gain 2 Lightning Charges.\nAdvantage on Aattack Rolls against metal constructs and enemies weaing metal armour while you have Lightning Charges.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Sparkle_Hands"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Sparkle_Hands",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/ca/The_Sparkle_Hands_Icon.png/300px-The_Sparkle_Hands_Icon.png"
     },
     {
         "name": "The Sparkswall",
@@ -2142,7 +2336,8 @@
         "": "X: 159\nY: -430",
         "description": "Immune to being Electrocuted.\nResistance to Lightning damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Sparkswall"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Sparkswall",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/a9/The_Sparkswall_Icon.png/300px-The_Sparkswall_Icon.png"
     },
     {
         "name": "The Sparky Points",
@@ -2153,7 +2348,8 @@
         "": "X: -52\nY: 621",
         "description": "When you deal damage with this weapon, gain 2 Lightning Charges.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Sparky_Points"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Sparky_Points",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/6/67/The_Sparky_Points_Icon.png/300px-The_Sparky_Points_Icon.png"
     },
     {
         "name": "The Spectator Eyes",
@@ -2164,7 +2360,8 @@
         "": "X: 118\nY: -251",
         "description": "Cast Ray of Fear once per Long Rest.\nCast Wounding Ray once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Spectator_Eyes"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Spectator_Eyes",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/7b/The_Spectator_Eyes_Icon.png/300px-The_Spectator_Eyes_Icon.png"
     },
     {
         "name": "The Speedy Lightfeet",
@@ -2175,7 +2372,8 @@
         "": "X: -712\nY: -413",
         "description": "When you Dash or take a similar action, gain 3 Lightning Charges.\nAthletics +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Speedy_Lightfeet"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Speedy_Lightfeet",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/7e/The_Speedy_Lightfeet_Icon.png/300px-The_Speedy_Lightfeet_Icon.png"
     },
     {
         "name": "The Spellsparkler",
@@ -2186,7 +2384,8 @@
         "": "X: -52\nY: 621",
         "description": "When you deal damage with a spell or cantrip, gain 2 Lightning Charges.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Spellsparkler"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Spellsparkler",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/74/The_Spellsparkler_Icon.png/300px-The_Spellsparkler_Icon.png"
     },
     {
         "name": "The Watcher's Guide",
@@ -2197,7 +2396,8 @@
         "": "X: -293\nY: -323",
         "description": "On a miss, the next Attack Roll against that target gains True Strike.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Watcher's_Guide"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Watcher's_Guide",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/5d/The_Watchers_Guide_Icon.png/300px-The_Watchers_Guide_Icon.png"
     },
     {
         "name": "The Watersparkers",
@@ -2208,7 +2408,8 @@
         "": "X: 336 \nY: 43",
         "description": "Water becomes electrified when you stand in it during combat.\nWhen you start your turn on an electrified surface, gain 3 Lightning Charges.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Watersparkers"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Watersparkers",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/b3/The_Watersparkers_Icon.png/300px-The_Watersparkers_Icon.png"
     },
     {
         "name": "The Whispering Promise",
@@ -2219,7 +2420,8 @@
         "": "",
         "description": "When you heal a creature, grant them Bless for 10 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/The_Whispering_Promise"
+        "wikiUrl": "https://bg3.wiki/wiki/The_Whispering_Promise",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/8/84/The_Whispering_Promise_Icon.png/300px-The_Whispering_Promise_Icon.png"
     },
     {
         "name": "Titanstring Bow",
@@ -2230,7 +2432,8 @@
         "": "X: 292\nY: -245",
         "description": "Deal an additional \ud83c\udfb2(Strength Modifier) with this weapon.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Titanstring_Bow"
+        "wikiUrl": "https://bg3.wiki/wiki/Titanstring_Bow",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/36/Longbow_PlusOne_Icon.png/300px-Longbow_PlusOne_Icon.png"
     },
     {
         "name": "Uncovered Mysteries",
@@ -2241,7 +2444,8 @@
         "": "X: -49\nY: -281",
         "description": "Cast Detect Thoughts once per Long Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Uncovered_Mysteries"
+        "wikiUrl": "https://bg3.wiki/wiki/Uncovered_Mysteries",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/c/c2/Uncovered_Mysteries_Icon.png/300px-Uncovered_Mysteries_Icon.png"
     },
     {
         "name": "Unseen Menace",
@@ -2252,7 +2456,8 @@
         "": "X: 1383 \nY: -812",
         "description": "This weapon is Invisible while equipped. It loses this property for 2 turns on a missed Attack Rolls.\nWhile Invisible, you are Immune to Disarm, gain Advantage on Attack Rolls and you land a Critical Hit when rolling a 19.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Unseen_Menace"
+        "wikiUrl": "https://bg3.wiki/wiki/Unseen_Menace",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/b/ba/Unseen_Menace_Icon.png/300px-Unseen_Menace_Icon.png"
     },
     {
         "name": "Varsh Ko'kuu's Boots",
@@ -2263,7 +2468,8 @@
         "": "X: 1288\nY: -760",
         "description": "Immune to Acidic Surfaces.\nResistance to Acid damage.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Varsh_Ko'kuu's_Boots"
+        "wikiUrl": "https://bg3.wiki/wiki/Varsh_Ko'kuu's_Boots",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/f/fd/Varsh_Ko%27kuu%27s_Boots_Icon.png/300px-Varsh_Ko%27kuu%27s_Boots_Icon.png"
     },
     {
         "name": "Very Heavy Greataxe",
@@ -2274,7 +2480,8 @@
         "": "X: 5\nY: 416",
         "description": "Gain Gargantuan Cleave weapon action.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Very_Heavy_Greataxe"
+        "wikiUrl": "https://bg3.wiki/wiki/Very_Heavy_Greataxe",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/3/32/Very_Heavy_Greataxe_Icon.png/300px-Very_Heavy_Greataxe_Icon.png"
     },
     {
         "name": "Vision of the Absolute",
@@ -2285,7 +2492,8 @@
         "": "X: 136 \nY: 446\nX: -360\nY: -115",
         "description": "On a hit, the target must succeed a Dexterity Saving Throw or become Blinded. \nDeals an additional \ud83c\udff9(2d6) to creatures that have multiple sets of eyes.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Vision_of_the_Absolute"
+        "wikiUrl": "https://bg3.wiki/wiki/Vision_of_the_Absolute",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/d/d0/Vision_of_the_Absolute_Icon.png/300px-Vision_of_the_Absolute_Icon.png"
     },
     {
         "name": "Vital Conduit Boots",
@@ -2296,7 +2504,8 @@
         "": "X: 1383 \nY: -812",
         "description": "Gain \u2764\ufe0f(8) temporary Hit Points when you cast a Spell that requires Concentration.\nAthletics +1",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Vital_Conduit_Boots"
+        "wikiUrl": "https://bg3.wiki/wiki/Vital_Conduit_Boots",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/ef/Vital_Conduit_Boots_Icon.png/300px-Vital_Conduit_Boots_Icon.png"
     },
     {
         "name": "Wapira's Crown",
@@ -2307,7 +2516,8 @@
         "": "X: -52\nY: 72",
         "description": "Regain \u2764\ufe0f(1d6) Hit Points when you heal another creature.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Wapira's_Crown"
+        "wikiUrl": "https://bg3.wiki/wiki/Wapira's_Crown",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/0/0e/Wapiras_Crown_Icon.png/300px-Wapiras_Crown_Icon.png"
     },
     {
         "name": "Warped Headband of Intellect",
@@ -2318,7 +2528,8 @@
         "": "X: 13\nY: 366",
         "description": "Increases Intelligence to 17.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Warped_Headband_of_Intellect"
+        "wikiUrl": "https://bg3.wiki/wiki/Warped_Headband_of_Intellect",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/a/a4/Warped_Headband_of_Intellect_Icon.png/300px-Warped_Headband_of_Intellect_Icon.png"
     },
     {
         "name": "Winter's Clutches",
@@ -2329,7 +2540,8 @@
         "": "X: 18 \nY: 22",
         "description": "When you deal Cold damage, inflict Encrusted with Frost for 2 turns.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Winter's_Clutches"
+        "wikiUrl": "https://bg3.wiki/wiki/Winter's_Clutches",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/1/19/Winter%27s_Clutches_Icon.png/300px-Winter%27s_Clutches_Icon.png"
     },
     {
         "name": "Witchbreaker",
@@ -2340,7 +2552,8 @@
         "": "X: 1383 \nY: -812",
         "description": "Advantage on Attack Rolls against concentrating creatures.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Witchbreaker"
+        "wikiUrl": "https://bg3.wiki/wiki/Witchbreaker",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/4/4c/Battleaxe_PlusOne_Icon.png/300px-Battleaxe_PlusOne_Icon.png"
     },
     {
         "name": "Wondrous Gloves",
@@ -2351,7 +2564,8 @@
         "": "X: -691\nY: 374",
         "description": "Gain 1 more use of Bardic Inspiration.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Wondrous_Gloves"
+        "wikiUrl": "https://bg3.wiki/wiki/Wondrous_Gloves",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/7/74/Wondrous_Gloves_Icon.png/300px-Wondrous_Gloves_Icon.png"
     },
     {
         "name": "Wood Woad Shield",
@@ -2362,7 +2576,8 @@
         "": "X: 94\nY: 229",
         "description": "Use a Bonus Action to attack and possibly Ensnare your target once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Wood_Woad_Shield"
+        "wikiUrl": "https://bg3.wiki/wiki/Wood_Woad_Shield",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/2/2e/Wood_Woad_Shield_Icon.png/300px-Wood_Woad_Shield_Icon.png"
     },
     {
         "name": "Worgfang",
@@ -2373,7 +2588,8 @@
         "": "X: 386 \nY: -17",
         "description": "Goblins have Disadvantage on Attack Rolls against you.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Worgfang"
+        "wikiUrl": "https://bg3.wiki/wiki/Worgfang",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/e/ef/Worgfang_Icon.png/300px-Worgfang_Icon.png"
     },
     {
         "name": "Xyanyde",
@@ -2384,6 +2600,7 @@
         "": "X: 336 \nY: 43",
         "description": "On a miss, automatically Cast Faerie Fire on the target (for 2 turns) once per Short Rest.",
         "act": "1",
-        "wikiUrl": "https://bg3.wiki/wiki/Xyanyde"
+        "wikiUrl": "https://bg3.wiki/wiki/Xyanyde",
+        "imgUrl": "https://bg3.wiki/w/images/thumb/5/51/Mace_PlusOne_Icon.png/300px-Mace_PlusOne_Icon.png"
     }
 ]
