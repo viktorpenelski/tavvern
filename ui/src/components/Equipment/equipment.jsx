@@ -42,6 +42,12 @@ const Equipment = () => {
         closeModal();
     };
 
+    const clearSlot = (event, slotConfig) => {
+        console.log("clearSlot", slotConfig.type)
+        event.stopPropagation();
+        setSelectedItem({...selectedItems, [slotConfig.type]: null});
+    }
+
     return (
         <div className="lg:col-start-2 col-span-1 border-indigo-800">
             <h1 className="text-2xl font-bold">Equipment</h1>
@@ -59,33 +65,33 @@ const Equipment = () => {
             <div id="item-head" className="flex flex-row justify-center">
                 <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.helmet})}
                                currentItem={selectedItems.helmet}
-                               onClick={searchForItem} />
+                               fnSearch={searchForItem} fnClearSlot={clearSlot} />
             </div>
             <div className="flex float-left flex-col justify-center">
                 {items && <EquipmentSlot 
                     slotConfig={new EquipmentSlotConfig({type: ItemTypes.meleMain})}
                     currentItem={selectedItems.meleMain}  
-                    onClick={searchForItem}            
+                    fnSearch={searchForItem} fnClearSlot={clearSlot}       
                 />}
                 {items && <EquipmentSlot 
                     slotConfig={new EquipmentSlotConfig({type: ItemTypes.meleOffHand}) } 
                     currentItem={selectedItems.meleOffHand}
-                    onClick={searchForItem}
+                    fnSearch={searchForItem} fnClearSlot={clearSlot}
                 />}
             </div>
             <div className="flex float-right flex-col justify-right">
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedMain}) } currentItem={selectedItems.rangedMain} onClick={searchForItem} />
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedOffHand})} currentItem={selectedItems.rangedOffHand} onClick={searchForItem}/>
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedMain}) } currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedOffHand})} currentItem={selectedItems.rangedOffHand} fnSearch={searchForItem} fnClearSlot={clearSlot}/>
             </div>
         </div>
     );
 };
 
 
-const EquipmentSlot = ({slotConfig, currentItem, onClick}) => {
+const EquipmentSlot = ({slotConfig, currentItem, fnSearch, fnClearSlot}) => {
     if (!currentItem) {
         return (
-            <div className="relative h-32 w-32 border-2 m-2 p-2 border-gray-500" onClick={() => onClick(slotConfig)}>
+            <div className="relative h-32 w-32 border-2 m-2 p-2 border-gray-500" onClick={() => fnSearch(slotConfig)}>
                 <p className="text-gray-500">{slotConfig.type}</p>
             </div>
         );
@@ -97,8 +103,13 @@ const EquipmentSlot = ({slotConfig, currentItem, onClick}) => {
                         bg-contain bg-[image:var(--image-url)]
                         relative h-32 w-32 
                         border-2 m-2 p-2 border-gray-500"
-                        onClick={() => onClick(slotConfig)}>
+                        onClick={() => fnSearch(slotConfig)}>
             <p className="text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">{currentItem.name}</p>
+            {/* create a span that is a small X in the top right corner */}
+            <span className="absolute top-0 right-1.5 cursor-pointer
+                           text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-2xl font-bold"
+                    onClick={event => fnClearSlot(event, slotConfig)}
+                    >X</span>
             <EquipmentItemHover item={currentItem} />
         </div>
     );
