@@ -17,10 +17,11 @@ export const EquipmentItemHover = ({item}) => {
             <h1 className="text-2xl font-bold">{item.name}</h1>
             <p className="text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.9)]">{item.type}</p>
             {/*  // TODO: add color */}
-            <p className="text-gray-500">{item.rearity}</p>
+            {/* <p className="text-gray-500">{item.rearity}</p> */}
+            <a href={item.wikiUrl} target="_blank" rel="noreferrer" className="text-white underline">wiki</a>
             <p className="text-white whitespace-pre max-w-xs">{item.properties}</p>
             <p className="text-white max-w-xs">{item.description}</p>
-            <p className="text-gray-500 italic font-thin max-w-xs">{item.flavorText}</p>
+            {/* <p className="text-gray-500 italic font-thin max-w-xs">{item.flavorText}</p> */}
         </span>
     );
 }

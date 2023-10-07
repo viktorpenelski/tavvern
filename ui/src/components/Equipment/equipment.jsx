@@ -10,7 +10,7 @@ import { useState } from "react";
 
 const Equipment = () => {
 
-    const [items, error] = useFetch(`http://localhost:3000/equipment_stubs.json`);
+    const [items, error] = useFetch(`http://localhost:3000/act1_items.json`);
     const [selectedItems, setSelectedItem] = useState(Object.keys(ItemTypes).map((key) => [key, null]));
     const [selectedSlot, setSelectedSlot] = useState(null);
     const [modalPreFilter, setModalPreFilter] = useState(null);
@@ -57,7 +57,7 @@ const Equipment = () => {
                 </div>
             </Modal>
             <div id="item-head" className="flex flex-row justify-center">
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.head})} 
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.helmet})}
                                currentItem={selectedItems.head}
                                onClick={searchForItem} />
             </div>
