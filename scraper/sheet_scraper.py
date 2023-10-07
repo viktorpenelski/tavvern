@@ -1,6 +1,8 @@
 import json
 import base64
 import os
+from wiki_scraper import parse_page
+
 
 ACT = "1"
 
@@ -31,7 +33,6 @@ def get_wiki_url(wiki_url):
     return html_data
 
 def img_url_from_wiki_url(wiki_url):
-    from wiki_scraper import parse_page
     
     # get the HTML data from the url without using requests
     html_data = get_wiki_url(wiki_url)
@@ -50,7 +51,7 @@ def map_item(row):
 
 
 
-if __name__ == '__main__':
+def main():
     with open(f'stubs/act{ACT}.json' , 'r') as f:
         json_data = f.read()
 
@@ -77,3 +78,12 @@ if __name__ == '__main__':
 
     with open(f'stubs/act{ACT}_items.json', 'w') as f:
         f.write(json.dumps(items, indent=4))
+
+
+def test():
+    html_data = get_wiki_url('https://bg3.wiki/wiki/Helldusk_Boots')
+    parsed = parse_page(html_data)
+    print(parsed)
+
+if __name__ == '__main__':
+    test()
