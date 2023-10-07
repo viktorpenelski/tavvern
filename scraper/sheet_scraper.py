@@ -1,5 +1,4 @@
 import json
-import time
 import base64
 import os
 
@@ -62,15 +61,19 @@ if __name__ == '__main__':
     headers = [h[0].lower() + h[1:] if h else '' for h in headers]
 
     items = []
+    failed_items = []
     for row in data[1:]:
         try:
             mapped = map_item(row)
             items.append(mapped)
             print(len(items))
             print(mapped)
-        except:
-            print('failed to map row: ', row)
+        except Exception as e:
+            print(f'failed to map row: {row} due to exception:\n{e}' )
+            failed_items.append(row)
 
+    with open(f'stubs/act{ACT}_failed_items.json', 'w') as f:
+        f.write(json.dumps(failed_items, indent=4))
 
     with open(f'stubs/act{ACT}_items.json', 'w') as f:
         f.write(json.dumps(items, indent=4))
