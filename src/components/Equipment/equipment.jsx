@@ -1,5 +1,5 @@
 import useFetch from "../../hooks/useFetch";
-import { EquipedItem, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
+import { ItemTypeMapping, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
 import {EquipmentListing, EquipmentItemHover} from "./equipmentListing";
 import Search from "./search";
 import Modal from "./modal";
@@ -13,6 +13,7 @@ const Equipment = () => {
     const [items, error] = useFetch(`http://localhost:3000/equipment_stubs.json`);
     const [selectedItems, setSelectedItem] = useState(Object.keys(ItemTypes).map((key) => [key, null]));
     const [selectedSlot, setSelectedSlot] = useState(null);
+    const [modalPreFilter, setModalPreFilter] = useState(null);
 
     const targetEl = document.getElementById('defaultModal');
     const _openModal = (slotConfig) => {
@@ -26,15 +27,20 @@ const Equipment = () => {
 
 
     const searchForItem = (slotConfig) => {
+
+        const filter = (item) => {
+            return ItemTypeMapping[slotConfig.type].has(item.type.toLowerCase());
+        };
+
+        setModalPreFilter(() => filter);
         _openModal(slotConfig);
     };
 
     const updateSelectedItem = (newItem) => {
         setSelectedItem({...selectedItems, [selectedSlot]: newItem});
+        setModalPreFilter(null);
         closeModal();
     };
-
-
 
     return (
         <div className="lg:col-start-2 col-span-1 border-indigo-800">
@@ -47,7 +53,7 @@ const Equipment = () => {
                 <div className="flex flex-row justify-center">
                     {error && <p>Error loading equipment data.</p>}
                     {!items && <p>Loading...</p>}
-                    {items && <Search items={items} updateSelectedItem={updateSelectedItem}/>}
+                    {items && <Search items={items} preFilter={modalPreFilter} updateSelectedItem={updateSelectedItem}/>}
                 </div>
             </Modal>
             <div id="item-head" className="flex flex-row justify-center">

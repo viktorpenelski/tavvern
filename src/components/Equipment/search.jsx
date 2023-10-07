@@ -2,14 +2,20 @@ import React, {useState} from 'react';
 import Scroll from './scroll';
 import EquipmentListing from './equipmentListing';
 
-function Search({ items, updateSelectedItem }) {
+function Search({ items, preFilter, updateSelectedItem }) {
     const [searchField, setSearchField] = useState('');
 
     if (!items) {
         return <p>Loading...</p>
     }
 
-    const filteredItems = items.filter(item => {
+    console.log("preFilter", preFilter);
+
+    if (!preFilter) {
+        preFilter = (item) => item;
+    }
+
+    const filteredItems = items.filter(preFilter).filter(item => {
         return (item.name.toLowerCase().includes(searchField.toLowerCase()));
     });
 
