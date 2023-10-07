@@ -49,8 +49,8 @@ const Equipment = () => {
     }
 
     return (
-        <div className="lg:col-start-2 col-span-1 border-indigo-800">
-            <h1 className="text-2xl font-bold">Equipment</h1>
+        <div className="grid grid-cols-7 lg:col-start-2 col-span-1 border-indigo-800">
+            <h1 className="row-start-1 col-start-4 text-2xl font-bold justify-center">Equipment</h1>
 
             <Modal
                 className="fade-up"
@@ -62,12 +62,12 @@ const Equipment = () => {
                     {items && <Search items={items} preFilter={modalPreFilter} updateSelectedItem={updateSelectedItem}/>}
                 </div>
             </Modal>
-            <div id="item-head" className="flex flex-row justify-center">
+            <div id="item-head" className="row-start-3 col-start-4 col-span-1 grid-flow-row justify-center">
                 <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.helmet})}
                                currentItem={selectedItems.helmet}
                                fnSearch={searchForItem} fnClearSlot={clearSlot} />
             </div>
-            <div className="flex float-left flex-col justify-center">
+            <div className="row-start-5 col-start-3 gap-1 col-span-1 justify-center">
                 {items && <EquipmentSlot 
                     slotConfig={new EquipmentSlotConfig({type: ItemTypes.meleMain})}
                     currentItem={selectedItems.meleMain}  
@@ -79,7 +79,7 @@ const Equipment = () => {
                     fnSearch={searchForItem} fnClearSlot={clearSlot}
                 />}
             </div>
-            <div className="flex float-right flex-col justify-right">
+            <div className="row-start-5 col-start-5 gap-1 col-span-1 justify-right">
                 <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedMain}) } currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
                 <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedOffHand})} currentItem={selectedItems.rangedOffHand} fnSearch={searchForItem} fnClearSlot={clearSlot}/>
             </div>
