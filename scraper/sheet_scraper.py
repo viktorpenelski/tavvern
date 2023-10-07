@@ -1,15 +1,44 @@
 import json
+import time
+import base64
+import os
 
 ACT = "1"
 
-with open(f'stubs/act{ACT}.json' , 'r') as f:
-    json_data = f.read()
 
-data = json.loads(json_data)
+def get_wiki_url(wiki_url):
 
-headers = (x['text'] for x in data[0])
-headers = (h.title().replace(" ", "") for h in headers)
-headers = [h[0].lower() + h[1:] if h else '' for h in headers]
+    def url_to_base64(url):
+        return base64.b64encode(url.encode('utf-8')).decode('utf-8')
+
+    def base64_to_url(base64_str):
+        return base64.b64decode(base64_str.encode('utf-8')).decode('utf-8')
+    
+    encoded_url = url_to_base64(wiki_url)
+    
+    if os.path.isfile(f'cache/{encoded_url}.html'):
+        print(f'using cached file for {wiki_url}')
+        with open(f'cache/{encoded_url}.html', 'r') as f:
+            return f.read()
+
+    print(f'fetching {wiki_url} and saving it as cache/{encoded_url}.html')
+    import urllib.request
+    with urllib.request.urlopen(wiki_url) as response:
+        html_data = response.read()
+
+    with open(f'cache/{encoded_url}.html', 'w') as f:
+        f.write(html_data.decode('utf-8'))
+    
+    return html_data
+
+def img_url_from_wiki_url(wiki_url):
+    from wiki_scraper import parse_page
+    
+    # get the HTML data from the url without using requests
+    html_data = get_wiki_url(wiki_url)
+    parsed = parse_page(html_data)
+    return parsed['imageUrl']
+
 
 def map_item(row):
     item = {}
@@ -17,12 +46,31 @@ def map_item(row):
         item[headers[i]] = ''.join([r['text'] for r in row[i]['richText']])
     item['act'] = ACT
     item['wikiUrl'] = row[0]['richText'][0]['url']
+    item['imgUrl'] = 'https://bg3.wiki' + img_url_from_wiki_url(item['wikiUrl'])
     return item
 
-items = []
-for row in data[1:]:
-    mapped = map_item(row)
-    items.append(mapped)
 
-with open(f'stubs/act{ACT}_items.json', 'w') as f:
-    f.write(json.dumps(items, indent=4))
+
+if __name__ == '__main__':
+    with open(f'stubs/act{ACT}.json' , 'r') as f:
+        json_data = f.read()
+
+    data = json.loads(json_data)
+
+    headers = (x['text'] for x in data[0])
+    headers = (h.title().replace(" ", "") for h in headers)
+    headers = [h[0].lower() + h[1:] if h else '' for h in headers]
+
+    items = []
+    for row in data[1:]:
+        try:
+            mapped = map_item(row)
+            items.append(mapped)
+            print(len(items))
+            print(mapped)
+        except:
+            print('failed to map row: ', row)
+
+
+    with open(f'stubs/act{ACT}_items.json', 'w') as f:
+        f.write(json.dumps(items, indent=4))

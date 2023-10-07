@@ -24,13 +24,16 @@ def parse_page(html_data):
     item_image_url = soup.select_one('div.floatright img')['src']
 
     # Extract where to find
-    flavorText = soup.select('div.bg3wiki-blockquote-text')[0].text.strip()
+    try:
+        flavorText = soup.select('div.bg3wiki-blockquote-text')[0].text.strip()
+    except:
+        flavorText = ''
 
     return {
         'name': item_name,
         'properties': item_properties,
         'special': item_special,
-        'image_url': item_image_url,
+        'imageUrl': item_image_url,
         'flavorText': flavorText,
     }
 
