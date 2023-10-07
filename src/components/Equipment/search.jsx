@@ -5,6 +5,10 @@ import EquipmentListing from './equipmentListing';
 function Search({ items, updateSelectedItem }) {
     const [searchField, setSearchField] = useState('');
 
+    if (!items) {
+        return <p>Loading...</p>
+    }
+
     const filteredItems = items.filter(item => {
         return (item.name.toLowerCase().includes(searchField.toLowerCase()));
     });
