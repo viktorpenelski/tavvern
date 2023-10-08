@@ -82,7 +82,7 @@ const Equipment = () => {
                 />}
                 {items && <EquipmentSlot 
                     slotConfig={new EquipmentSlotConfig({type: ItemTypes.armour})}
-                    currentItem={selectedItems.armor}  
+                    currentItem={selectedItems.armour}  
                     fnSearch={searchForItem} fnClearSlot={clearSlot}       
                 />}
                 {items && <EquipmentSlot 
