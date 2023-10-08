@@ -54,9 +54,8 @@ const Equipment = () => {
     }
 
     return (
-        <div className="border-solid border-2 border-red-500
-        flex-col max-w-screen-lg
-        flex ">
+        <div className="flex
+        flex-col max-w-screen-lg">
 
             <Modal
                 className="fade-up "
@@ -68,8 +67,7 @@ const Equipment = () => {
                     {items && <Search items={items} preFilter={modalPreFilter} updateSelectedItem={updateSelectedItem} />}
                 </div>
             </Modal>
-            <div className="border-solid border-2 border-sky-500 
-                            flex flex-grow-[2]
+            <div className=" flex flex-grow-[2]
                             justify-between">
                 <div className="flex flex-col items-center ml-10">
                     <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.helmet })}
@@ -104,13 +102,9 @@ const Equipment = () => {
                 </div>
 
             </div>
-            <div className="border-solid border-2 border-sky-500
-                        flex-1
-                         justify-center">
-
+            <div className="flex-1justify-center">
             </div>
-            <div className="border-solid border-2 border-sky-500
-                        flex flex-1 justify-between">
+            <div className="flex flex-1 justify-between">
                 <div className="flex items-center ml-10">
                     {items && <EquipmentSlot
                         slotConfig={new EquipmentSlotConfig({ type: ItemTypes.meleMain })}
