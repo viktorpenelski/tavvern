@@ -5,6 +5,13 @@ export const ItemTypes = {
     meleOffHand: "meleOffHand",
     rangedMain: "rangedMain",
     rangedOffHand: "rangedOffHand",
+    cloak: "cloak",
+    armour: "armour",
+    gloves: "gloves",
+    boots: "boots",
+    amulet: "amulet",
+    ringLeft: "ringLeft",
+    ringRight: "ringRight",
 }
 
 const meleeMartialWeapons = {
@@ -30,11 +37,18 @@ const rangedSimpleWeapons = {
 }
 
 export const ItemTypeMapping = {
-    helmet: new Set(["helmet"]),
+    helmet: new Set(["helmet", "medium helmet", "heavy helmet", "light helmet"]),
     meleMain: new Set([...meleeMartialWeapons.oneHanded, ...meleeMartialWeapons.versatile, ...meleeMartialWeapons.twoHanded, ...meleSimpleWeapons.oneHanded, ...meleSimpleWeapons.versatile, ...meleSimpleWeapons.twoHanded]),
     meleOffHand: new Set(["shield", ...meleeMartialWeapons.oneHanded, ...meleSimpleWeapons.oneHanded]),
     rangedMain: new Set([...rangedMartialWeapons.oneHanded, ...rangedMartialWeapons.twoHanded, ...rangedSimpleWeapons.twoHanded]),
     rangedOffHand: new Set([...rangedMartialWeapons.oneHanded, ...rangedSimpleWeapons.oneHanded]),
+    cloak: new Set(["cloak"]),
+    armour: new Set(["armour", "medium armour", "heavy armour", "light armour"]),
+    gloves: new Set(["gloves", "medium gloves", "heavy gloves", "light gloves"]),
+    boots: new Set(["boots", "medium boots", "heavy boots", "light boots"]),
+    amulet: new Set(["amulet"]),
+    ringLeft: new Set(["ring"]),
+    ringRight: new Set(["ring"]),
 }
 
 export class EquipedItem {
