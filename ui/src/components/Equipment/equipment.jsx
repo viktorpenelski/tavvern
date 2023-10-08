@@ -1,6 +1,6 @@
 import useFetch from "../../hooks/useFetch";
 import { ItemTypeMapping, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
-import {EquipmentListing, EquipmentItemHover} from "./equipmentListing";
+import { EquipmentListing, EquipmentItemHover } from "./equipmentListing";
 import Search from "./search";
 import Modal from "./modal";
 import { useState } from "react";
@@ -19,11 +19,16 @@ const Equipment = () => {
     const _openModal = (slotConfig) => {
         setSelectedSlot(slotConfig.type);
         targetEl.classList.remove('hidden');
+        targetEl.classList.add('flex');
     };
-    const closeModal = () => {
+    const closeModal = (event) => {
+        if (event && event.target !== event.currentTarget) {
+            return
+        }
         setSelectedSlot(null);
+        targetEl.classList.remove('flex');
         targetEl.classList.add('hidden');
-      };
+    };
 
 
     const searchForItem = (slotConfig) => {
@@ -37,7 +42,7 @@ const Equipment = () => {
     };
 
     const updateSelectedItem = (newItem) => {
-        setSelectedItem({...selectedItems, [selectedSlot]: newItem});
+        setSelectedItem({ ...selectedItems, [selectedSlot]: newItem });
         setModalPreFilter(null);
         closeModal();
     };
@@ -45,71 +50,101 @@ const Equipment = () => {
     const clearSlot = (event, slotConfig) => {
         console.log("clearSlot", slotConfig.type)
         event.stopPropagation();
-        setSelectedItem({...selectedItems, [slotConfig.type]: null});
+        setSelectedItem({ ...selectedItems, [slotConfig.type]: null });
     }
 
     return (
-        <div className="grid grid-cols-7 lg:col-start-2 col-span-1 border-indigo-800">
-            <h1 className="row-start-1 col-start-4 text-2xl font-bold justify-center">Equipment</h1>
+        <div className="border-solid border-2 border-red-500
+        flex-col max-w-screen-lg
+        flex ">
 
             <Modal
-                className="fade-up"
+                className="fade-up "
                 id={"defaultModal"}
                 closeModalFunction={closeModal}>
                 <div className="flex flex-row justify-center">
                     {error && <p>Error loading equipment data.</p>}
                     {!items && <p>Loading...</p>}
-                    {items && <Search items={items} preFilter={modalPreFilter} updateSelectedItem={updateSelectedItem}/>}
+                    {items && <Search items={items} preFilter={modalPreFilter} updateSelectedItem={updateSelectedItem} />}
                 </div>
             </Modal>
-            <div id="item-head" className="row-start-3 col-start-4 col-span-1 grid-flow-row justify-center">
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.helmet})}
-                               currentItem={selectedItems.helmet}
-                               fnSearch={searchForItem} fnClearSlot={clearSlot} />
+            <div className="border-solid border-2 border-sky-500 
+                            flex flex-grow-[2]
+                            justify-between">
+                <div className="flex flex-col items-center ml-10">
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.helmet })}
+                        currentItem={selectedItems.helmet}
+                        fnSearch={searchForItem} fnClearSlot={clearSlot} />
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+
+                </div>
+                <div className="flex flex-col items-center mr-10">
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+
+                </div>
+
             </div>
-            <div className="row-start-5 col-start-3 gap-1 col-span-1 justify-center">
-                {items && <EquipmentSlot 
-                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.meleMain})}
-                    currentItem={selectedItems.meleMain}  
-                    fnSearch={searchForItem} fnClearSlot={clearSlot}       
-                />}
-                {items && <EquipmentSlot 
-                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.meleOffHand}) } 
-                    currentItem={selectedItems.meleOffHand}
-                    fnSearch={searchForItem} fnClearSlot={clearSlot}
-                />}
+            <div className="border-solid border-2 border-sky-500
+                        flex-1
+                         justify-center">
+
             </div>
-            <div className="row-start-5 col-start-5 gap-1 col-span-1 justify-right">
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedMain}) } currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.rangedOffHand})} currentItem={selectedItems.rangedOffHand} fnSearch={searchForItem} fnClearSlot={clearSlot}/>
+            <div className="border-solid border-2 border-sky-500
+                        flex flex-1 justify-between">
+                <div className="flex items-center ml-10">
+                    {items && <EquipmentSlot
+                        slotConfig={new EquipmentSlotConfig({ type: ItemTypes.meleMain })}
+                        currentItem={selectedItems.meleMain}
+                        fnSearch={searchForItem} fnClearSlot={clearSlot}
+                    />}
+                    {items && <EquipmentSlot
+                        slotConfig={new EquipmentSlotConfig({ type: ItemTypes.meleOffHand })}
+                        currentItem={selectedItems.meleOffHand}
+                        fnSearch={searchForItem} fnClearSlot={clearSlot}
+                    />}
+                </div>
+                <div className="flex items-center mr-10">
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedOffHand })} currentItem={selectedItems.rangedOffHand} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+                </div>
             </div>
         </div>
     );
 };
 
 
-const EquipmentSlot = ({slotConfig, currentItem, fnSearch, fnClearSlot}) => {
+const EquipmentSlot = ({ slotConfig, currentItem, fnSearch, fnClearSlot }) => {
     if (!currentItem) {
         return (
-            <div className="relative h-32 w-32 border-2 m-2 p-2 border-gray-500" onClick={() => fnSearch(slotConfig)}>
+            <div className="relative h-28 w-28 border-2 m-2 p-2 border-gray-500" onClick={() => fnSearch(slotConfig)}>
                 <p className="text-gray-500">{slotConfig.type}</p>
             </div>
         );
     }
     return (
         <div
-            style={{ '--image-url': `url(${currentItem.imgUrl ? currentItem.imgUrl : ""})` }} 
+            style={{ '--image-url': `url(${currentItem.imgUrl ? currentItem.imgUrl : ""})` }}
             className=" group 
                         bg-contain bg-[image:var(--image-url)]
-                        relative h-32 w-32 
+                        relative h-28 w-28
                         border-2 m-2 p-2 border-gray-500"
-                        onClick={() => fnSearch(slotConfig)}>
+            onClick={() => fnSearch(slotConfig)}>
             <p className="text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">{currentItem.name}</p>
             {/* create a span that is a small X in the top right corner */}
             <span className="absolute top-0 right-1.5 cursor-pointer
                            text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-2xl font-bold"
-                    onClick={event => fnClearSlot(event, slotConfig)}
-                    >X</span>
+                onClick={event => fnClearSlot(event, slotConfig)}
+            >X</span>
             <EquipmentItemHover item={currentItem} />
         </div>
     );

@@ -21,7 +21,7 @@ export const EquipmentItemHover = ({item}) => {
             <a href={item.wikiUrl} target="_blank" rel="noreferrer" className="text-white underline">wiki</a>
             <p className="text-white whitespace-pre max-w-xs">{item.properties}</p>
             <p className="text-white max-w-xs">{item.description}</p>
-            {/* <p className="text-gray-500 italic font-thin max-w-xs">{item.flavorText}</p> */}
+            <p className="text-gray-500 italic font-thin max-w-xs">{item.flavorText}</p>
         </span>
     );
 }

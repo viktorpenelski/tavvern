@@ -32,21 +32,23 @@ def get_wiki_url(wiki_url):
     
     return html_data
 
-def img_url_from_wiki_url(wiki_url):
+def scrape_from_wiki_url(wiki_url):
     
     # get the HTML data from the url without using requests
     html_data = get_wiki_url(wiki_url)
     parsed = parse_page(html_data)
-    return parsed['imageUrl']
+    return parsed
 
 
-def map_item(row):
+def map_item(row, headers):
     item = {}
     for i in range(len(headers)):
         item[headers[i]] = ''.join([r['text'] for r in row[i]['richText']])
     item['act'] = ACT
     item['wikiUrl'] = row[0]['richText'][0]['url']
-    item['imgUrl'] = 'https://bg3.wiki' + img_url_from_wiki_url(item['wikiUrl'])
+    scraped = scrape_from_wiki_url(item['wikiUrl'])
+    item['imgUrl'] = 'https://bg3.wiki' + scraped['imgUrl']
+    item['flavorText'] = scraped['flavorText']
     return item
 
 
@@ -65,7 +67,7 @@ def main():
     failed_items = []
     for row in data[1:]:
         try:
-            mapped = map_item(row)
+            mapped = map_item(row, headers)
             items.append(mapped)
             print(len(items))
             print(mapped)
@@ -83,7 +85,7 @@ def main():
 def test():
     html_data = get_wiki_url('https://bg3.wiki/wiki/Boots_of_Speed')
     parsed = parse_page(html_data)
-    print(parsed)
+    print (json.dumps(parsed, indent=2))
 
 if __name__ == '__main__':
     test()
