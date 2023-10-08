@@ -75,22 +75,32 @@ const Equipment = () => {
                     <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.helmet })}
                         currentItem={selectedItems.helmet}
                         fnSearch={searchForItem} fnClearSlot={clearSlot} />
-                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-
-                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-
-                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-
-                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-
+              {items && <EquipmentSlot 
+                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.cloak})}
+                    currentItem={selectedItems.cloak}  
+                    fnSearch={searchForItem} fnClearSlot={clearSlot}       
+                />}
+                {items && <EquipmentSlot 
+                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.armour})}
+                    currentItem={selectedItems.armor}  
+                    fnSearch={searchForItem} fnClearSlot={clearSlot}       
+                />}
+                {items && <EquipmentSlot 
+                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.gloves})}
+                    currentItem={selectedItems.gloves}  
+                    fnSearch={searchForItem} fnClearSlot={clearSlot}       
+                />}
+                {items && <EquipmentSlot 
+                    slotConfig={new EquipmentSlotConfig({type: ItemTypes.boots})}
+                    currentItem={selectedItems.boots}  
+                    fnSearch={searchForItem} fnClearSlot={clearSlot}       
+                />}
                 </div>
                 <div className="flex flex-col items-center mr-10">
-                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-
-                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-
-                    <EquipmentSlot slotConfig={new EquipmentSlotConfig({ type: ItemTypes.rangedMain })} currentItem={selectedItems.rangedMain} fnSearch={searchForItem} fnClearSlot={clearSlot} />
-
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.amulet}) } currentItem={selectedItems.amulet} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.ringLeft}) } currentItem={selectedItems.ringLeft} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+                <EquipmentSlot slotConfig={new EquipmentSlotConfig({type: ItemTypes.ringRight}) } currentItem={selectedItems.ringRight} fnSearch={searchForItem} fnClearSlot={clearSlot} />
+              
                 </div>
 
             </div>

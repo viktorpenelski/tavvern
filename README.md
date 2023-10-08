@@ -9,4 +9,5 @@ Welcome to the Tav[vern] - the tavern where.. Tav resides.
 
 ### UI ideas
 
-[] clicking out of the Modal should dismiss it
+[x] clicking out of the Modal should dismiss it
+[ ] should be lazy loading the modal (and more importnatly its' search) to avoid having hundreds of hidden react component
