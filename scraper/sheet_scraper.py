@@ -40,7 +40,7 @@ def img_url_from_wiki_url(wiki_url):
     return parsed['imageUrl']
 
 
-def map_item(row):
+def map_item(row, headers):
     item = {}
     for i in range(len(headers)):
         item[headers[i]] = ''.join([r['text'] for r in row[i]['richText']])
@@ -65,7 +65,7 @@ def main():
     failed_items = []
     for row in data[1:]:
         try:
-            mapped = map_item(row)
+            mapped = map_item(row, headers)
             items.append(mapped)
             print(len(items))
             print(mapped)
