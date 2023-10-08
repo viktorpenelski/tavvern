@@ -81,7 +81,7 @@ def main():
 
 
 def test():
-    html_data = get_wiki_url('https://bg3.wiki/wiki/Helldusk_Boots')
+    html_data = get_wiki_url('https://bg3.wiki/wiki/Boots_of_Speed')
     parsed = parse_page(html_data)
     print(parsed)
 

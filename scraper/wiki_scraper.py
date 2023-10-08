@@ -34,6 +34,8 @@ def parse_page(html_data):
 
     # Extract where to find
     where_to_find = []
+    # TODO fix for 'https://bg3.wiki/wiki/Boots_of_Speed'; may not have an ul/li but a p instead
+    # maybe rely on class="bg3wiki-tooltip-box" if where to find id exists?
     where_to_find_section = soup.select_one('#Where_to_Find')
     if where_to_find_section:
         where_to_find_ul = where_to_find_section.find_next('ul')
