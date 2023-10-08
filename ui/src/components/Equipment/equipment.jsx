@@ -54,8 +54,7 @@ const Equipment = () => {
     }
 
     return (
-        <div className="flex
-        flex-col max-w-screen-lg">
+        <div className="flex flex-col max-w-screen-sm max-h-screen m-8 border-8 border-green-600">
 
             <Modal
                 className="fade-up "
@@ -102,10 +101,10 @@ const Equipment = () => {
                 </div>
 
             </div>
-            <div className="flex-1justify-center">
+            <div className="flex-none justify-center">
             </div>
             <div className="flex flex-1 justify-between">
-                <div className="flex items-center ml-10">
+                <div className="flex items-center m-10">
                     {items && <EquipmentSlot
                         slotConfig={new EquipmentSlotConfig({ type: ItemTypes.meleMain })}
                         currentItem={selectedItems.meleMain}
@@ -125,7 +124,6 @@ const Equipment = () => {
         </div>
     );
 };
-
 
 const EquipmentSlot = ({ slotConfig, currentItem, fnSearch, fnClearSlot }) => {
     if (!currentItem) {

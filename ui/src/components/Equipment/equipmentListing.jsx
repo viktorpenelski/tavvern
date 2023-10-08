@@ -37,7 +37,6 @@ const EquipmentListItem = ({item, updateSelectedItem}) => {
         >
             <img className="h-16 w-16" src={item.img} alt={item.name} />
             <p className="text-gray-500">{item.name}</p>
-            <EquipmentItemHover item={item} />
         </div>
     );
 };
