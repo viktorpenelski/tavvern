@@ -32,12 +32,12 @@ def get_wiki_url(wiki_url):
     
     return html_data
 
-def img_url_from_wiki_url(wiki_url):
+def scrape_from_wiki_url(wiki_url):
     
     # get the HTML data from the url without using requests
     html_data = get_wiki_url(wiki_url)
     parsed = parse_page(html_data)
-    return parsed['imageUrl']
+    return parsed
 
 
 def map_item(row, headers):
@@ -46,7 +46,9 @@ def map_item(row, headers):
         item[headers[i]] = ''.join([r['text'] for r in row[i]['richText']])
     item['act'] = ACT
     item['wikiUrl'] = row[0]['richText'][0]['url']
-    item['imgUrl'] = 'https://bg3.wiki' + img_url_from_wiki_url(item['wikiUrl'])
+    scraped = scrape_from_wiki_url(item['wikiUrl'])
+    item['imgUrl'] = 'https://bg3.wiki' + scraped['imgUrl']
+    item['flavorText'] = scraped['flavorText']
     return item
 
 
@@ -83,7 +85,7 @@ def main():
 def test():
     html_data = get_wiki_url('https://bg3.wiki/wiki/Helldusk_Boots')
     parsed = parse_page(html_data)
-    print(parsed)
+    print (json.dumps(parsed, indent=2))
 
 if __name__ == '__main__':
     test()

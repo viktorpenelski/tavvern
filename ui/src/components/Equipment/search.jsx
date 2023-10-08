@@ -35,7 +35,7 @@ function Search({ items, preFilter, updateSelectedItem }) {
         <div className="flex flex-col">
             <div className="flex flex-row justify-center">
                 <input 
-                    className="border-2 border-gray-500 rounded-lg"
+                    className="border-2 pl-2 border-gray-500 rounded-lg"
                     type="search" 
                     placeholder=" Search for an item" 
                     onChange={handleChange}

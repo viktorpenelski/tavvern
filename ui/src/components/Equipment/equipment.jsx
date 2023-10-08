@@ -19,9 +19,14 @@ const Equipment = () => {
     const _openModal = (slotConfig) => {
         setSelectedSlot(slotConfig.type);
         targetEl.classList.remove('hidden');
+        targetEl.classList.add('flex');
     };
-    const closeModal = () => {
+    const closeModal = (event) => {
+        if (event && event.target !== event.currentTarget) {
+            return
+        }
         setSelectedSlot(null);
+        targetEl.classList.remove('flex');
         targetEl.classList.add('hidden');
     };
 
@@ -54,7 +59,7 @@ const Equipment = () => {
         flex ">
 
             <Modal
-                className="fade-up"
+                className="fade-up "
                 id={"defaultModal"}
                 closeModalFunction={closeModal}>
                 <div className="flex flex-row justify-center">
