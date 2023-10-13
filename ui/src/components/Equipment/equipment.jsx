@@ -4,6 +4,7 @@ import { EquipmentListing, EquipmentItemHover } from "./equipmentListing";
 import Search from "./search";
 import Modal from "./modal";
 import { useState } from "react";
+import useQueryParam from "../../hooks/useQueryState";
 
 
 
@@ -14,6 +15,7 @@ const Equipment = () => {
     const [selectedItems, setSelectedItem] = useState(Object.keys(ItemTypes).map((key) => [key, null]));
     const [selectedSlot, setSelectedSlot] = useState(null);
     const [modalPreFilter, setModalPreFilter] = useState(null);
+    const [selectedItemsState, setSelectedItemsState] = useQueryParam("items", "");
 
     const targetEl = document.getElementById('defaultModal');
     const _openModal = (slotConfig) => {
@@ -21,6 +23,19 @@ const Equipment = () => {
         targetEl.classList.remove('hidden');
         targetEl.classList.add('flex');
     };
+
+
+    const encodeItemNames = () => {
+        var simplifiedMap = {}
+        for (var key in selectedItems) {
+            if (selectedItems.hasOwnProperty(key)) {
+                simplifiedMap[key] = selectedItems[key].name;
+            }
+        }
+        console.log(JSON.stringify(simplifiedMap));
+        return btoa(JSON.stringify(simplifiedMap));
+    }
+
     const closeModal = (event) => {
         if (event && event.target !== event.currentTarget) {
             return
@@ -28,6 +43,7 @@ const Equipment = () => {
         setSelectedSlot(null);
         targetEl.classList.remove('flex');
         targetEl.classList.add('hidden');
+        setSelectedItemsState(encodeItemNames())
     };
 
 
