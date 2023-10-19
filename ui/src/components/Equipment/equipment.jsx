@@ -3,7 +3,7 @@ import { ItemTypeMapping, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
 import { EquipmentListing, EquipmentItemHover } from "./equipmentListing";
 import Search from "./search";
 import Modal from "./modal";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useQueryParam from "../../hooks/useQueryState";
 
 
@@ -17,6 +17,27 @@ const Equipment = () => {
     const [modalPreFilter, setModalPreFilter] = useState(null);
     const [selectedItemsState, setSelectedItemsState] = useQueryParam("items", "");
 
+    // TODO(vik) we should probably refactor the item encoding/decoding useEffects and just bind them here.
+    useEffect(() => {
+        // decode & fill the currently selected items from the query param
+        // this should happen only once, when items load.
+        // revisit in case we fetch items multiple times, as we would need a more rigid condition then...
+        if (!items) {
+            return;
+        }
+        const decodedItems = decodeItemNames();
+        setSelectedItem(decodedItems);
+    }, [items])
+
+    useEffect(() => {
+        // sync the query param to the current "selected items" state
+        // we don't want ot be updating the query param when items aren ot fully loaded
+        if (!items) {
+            return;
+        }
+        setSelectedItemsState(encodeItemNames())
+    }, [selectedItems])
+
     const targetEl = document.getElementById('defaultModal');
     const _openModal = (slotConfig) => {
         setSelectedSlot(slotConfig.type);
@@ -24,15 +45,29 @@ const Equipment = () => {
         targetEl.classList.add('flex');
     };
 
+    const decodeItemNames = () => {
+        if (!selectedItemsState || selectedItemsState.length == 0) {
+            return {}
+        }
+        const jsonString = atob(selectedItemsState);
+        const parsed = JSON.parse(jsonString);
+        for (const [slot, name] of Object.entries(parsed)) {
+            if(slot && name) {
+                parsed[slot] = items ? items.find((itm) => itm.name == name) : null;
+            }
+            console.log(slot, name);
+            console.log(parsed[slot]);
+        }
+        return parsed
+    }
 
     const encodeItemNames = () => {
         var simplifiedMap = {}
         for (var key in selectedItems) {
-            if (selectedItems.hasOwnProperty(key)) {
+            if (selectedItems.hasOwnProperty(key) && selectedItems[key] !== null) {
                 simplifiedMap[key] = selectedItems[key].name;
             }
         }
-        console.log(JSON.stringify(simplifiedMap));
         return btoa(JSON.stringify(simplifiedMap));
     }
 
@@ -43,7 +78,6 @@ const Equipment = () => {
         setSelectedSlot(null);
         targetEl.classList.remove('flex');
         targetEl.classList.add('hidden');
-        setSelectedItemsState(encodeItemNames())
     };
 
 
@@ -64,7 +98,6 @@ const Equipment = () => {
     };
 
     const clearSlot = (event, slotConfig) => {
-        console.log("clearSlot", slotConfig.type)
         event.stopPropagation();
         setSelectedItem({ ...selectedItems, [slotConfig.type]: null });
     }
