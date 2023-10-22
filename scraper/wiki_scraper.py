@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import re
 import json
 
-from wiki_utils import get_wiki_url
+from wiki_utils import cache_image_by_item_name, get_wiki_url
 
 def _map_properties(properties: list[str]):
     is_weapon = False
@@ -68,7 +68,9 @@ def parse_page(html_data):
     # Extract item image URL
     item_image_url = ''
     try:
-        item_image_url = 'https://' + soup.select_one('div.floatright img')['src']
+        img_url = 'https://bg3.wiki' + soup.select_one('div.floatright img')['src']
+        image_path = cache_image_by_item_name(item_name, img_url)
+        item_image_url = image_path
     except Exception as e:
         print('failed to get image url due to exception:\n', e)
 
