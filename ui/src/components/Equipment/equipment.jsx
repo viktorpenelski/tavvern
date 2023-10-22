@@ -1,5 +1,5 @@
 import useFetch from "../../hooks/useFetch";
-import { ItemTypeMapping, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
+import { HOST, ItemTypeMapping, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
 import { EquipmentListing, EquipmentItemHover } from "./equipmentListing";
 import Search from "./search";
 import Modal from "./modal";
@@ -11,7 +11,7 @@ import useQueryParam from "../../hooks/useQueryState";
 
 const Equipment = () => {
 
-    const [items, error] = useFetch(`http://localhost:3000/act1_items.json`);
+    const [items, error] = useFetch(`http://localhost:3000/all_items.json`);
     const [selectedItems, setSelectedItem] = useState(Object.keys(ItemTypes).map((key) => [key, null]));
     const [selectedSlot, setSelectedSlot] = useState(null);
     const [modalPreFilter, setModalPreFilter] = useState(null);
@@ -184,7 +184,7 @@ const EquipmentSlot = ({ slotConfig, currentItem, fnSearch, fnClearSlot }) => {
     }
     return (
         <div
-            style={{ '--image-url': `url(${currentItem.imgUrl ? currentItem.imgUrl : ""})` }}
+            style={{ '--image-url': `url(${HOST}/${currentItem.imageUrl ? currentItem.imageUrl : ""})` }}
             className=" group 
                         bg-contain bg-[image:var(--image-url)]
                         relative h-28 w-28

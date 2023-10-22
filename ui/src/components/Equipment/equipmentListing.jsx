@@ -1,5 +1,6 @@
 import { type } from "@testing-library/user-event/dist/type";
 import useFetch from "../../hooks/useFetch";
+import { HOST } from "./sharedTypes";
 
 const EquipmentListing = ({filteredItems, updateSelectedItem}) => {
     return (
@@ -35,7 +36,7 @@ const EquipmentListItem = ({item, updateSelectedItem}) => {
                         border-2 m-2 p-2 border-gray-500"
             onClick={() => updateSelectedItem(item)}
         >
-            <img className="h-16 w-16" src={item.img} alt={item.name} />
+            <img className="h-16 w-16" src={HOST + "/" + item.imageUrl} alt={item.name} />
             <p className="text-gray-500">{item.name}</p>
         </div>
     );

@@ -1,3 +1,4 @@
+export const HOST = window.location.protocol + "//" + window.location.host;
 
 export const ItemTypes = {
     helmet: "helmet",
@@ -36,7 +37,24 @@ const rangedSimpleWeapons = {
     twoHanded: ["light crossbow", "shortbow"]
 }
 
+// {'rings', 'handwear', 'cloaks', 'armour', 'headwear', 'shields', 'amulets', 'footwear', 'weapons', 'clothing'}
+
 export const ItemTypeMapping = {
+    helmet: new Set(["headwear"]),
+    meleMain: new Set(["weapons"]),
+    meleOffHand: new Set(["weapons", "shields"]),
+    rangedMain: new Set(["weapons"]),
+    rangedOffHand: new Set(["weapons"]),
+    cloak: new Set(["cloaks"]),
+    armour: new Set(["armour", "clothing"]),
+    gloves: new Set(["handwear"]),
+    boots: new Set(["footwear"]),
+    amulet: new Set(["amulets"]),
+    ringLeft: new Set(["rings"]),
+    ringRight: new Set(["rings"]),
+}
+
+export const ItemTypeMappingOld = {
     helmet: new Set(["helmet", "medium helmet", "heavy helmet", "light helmet"]),
     meleMain: new Set([...meleeMartialWeapons.oneHanded, ...meleeMartialWeapons.versatile, ...meleeMartialWeapons.twoHanded, ...meleSimpleWeapons.oneHanded, ...meleSimpleWeapons.versatile, ...meleSimpleWeapons.twoHanded]),
     meleOffHand: new Set(["shield", ...meleeMartialWeapons.oneHanded, ...meleSimpleWeapons.oneHanded]),
