@@ -1,9 +1,9 @@
 import useFetch from "../../hooks/useFetch";
 import { HOST, ItemTypeMapping, EquipmentSlotConfig, ItemTypes } from "./sharedTypes";
-import { EquipmentListing, EquipmentItemHover } from "./equipmentListing";
+import { EquipmentItemHover } from "./equipmentListing";
 import Search from "./search";
 import Modal from "./modal";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo, useCallback } from "react";
 import useQueryParam from "../../hooks/useQueryState";
 
 
@@ -16,6 +16,90 @@ const Equipment = () => {
     const [selectedSlot, setSelectedSlot] = useState(null);
     const [modalPreFilter, setModalPreFilter] = useState(null);
     const [selectedItemsState, setSelectedItemsState] = useQueryParam("items", "");
+
+    const itemsIdNameMap = useMemo(
+        () => {
+            if (!items) {
+                return;
+            }
+            var props = {};
+            items.forEach((item) => {
+                props[item.id] = item.name
+            })
+            return props;
+        }, [items]
+    )
+
+    const itemsNameIdMap = useMemo(
+        () => {
+            if (!items) {
+                return;
+            }
+            var props = {};
+            items.forEach((item) => {
+                props[item.name] = item.id
+            })
+            return props;
+        }, [items]
+    )
+
+    
+    const decodeItemNames = () => {
+        const keys = {
+            "h": "helmet",
+            "m": "meleMain",
+            "o": "meleOffHand",
+            "x": "rangedMain",
+            "y": "rangedOffHand",
+            "c": "cloak",
+            "a": "armour",
+            "g": "gloves",
+            "b": "boots",
+            "u": "amulet",
+            "l": "ringLeft",
+            "r": "ringRight",
+        }
+        const parsed = selectedItemsState.split(/(?=[a-z])/)
+        var simplifiedItems = {}
+        parsed.forEach((encodedItem) => {
+            const slot = keys[encodedItem[0]];
+            const id = parseInt(encodedItem.substr(1, encodedItem.length));
+            const name = itemsIdNameMap[id];
+            simplifiedItems[slot] = items ? items.find((itm) => itm.name === name) : null;
+        })
+        return simplifiedItems;
+    }
+
+    const encodeItemNames = () => {
+        console.log("encoding:: ")
+        console.log(selectedItems)
+        if (!selectedItems || selectedItems.length === 0) {
+            return ""
+        }
+        var encodedStr = "";
+        const keys = {
+            "helmet": "h",
+            "meleMain": "m",
+            "meleOffHand": "o",
+            "rangedMain": "x",
+            "rangedOffHand": "y",
+            "cloak": "c",
+            "armour": "a",
+            "gloves": "g",
+            "boots": "b",
+            "amulet": "u",
+            "ringLeft": "l",
+            "ringRight": "r",
+        }
+        for (var key in selectedItems) {
+            if (selectedItems.hasOwnProperty(key) && selectedItems[key] !== null) {
+                encodedStr += `${keys[key]}${selectedItems[key].id}`
+            }
+        }
+        console.log("encoded: " + encodedStr)
+        return encodedStr;
+    }
+
 
     // TODO(vik) we should probably refactor the item encoding/decoding useEffects and just bind them here.
     useEffect(() => {
@@ -44,32 +128,6 @@ const Equipment = () => {
         targetEl.classList.remove('hidden');
         targetEl.classList.add('flex');
     };
-
-    const decodeItemNames = () => {
-        if (!selectedItemsState || selectedItemsState.length == 0) {
-            return {}
-        }
-        const jsonString = atob(selectedItemsState);
-        const parsed = JSON.parse(jsonString);
-        for (const [slot, name] of Object.entries(parsed)) {
-            if(slot && name) {
-                parsed[slot] = items ? items.find((itm) => itm.name == name) : null;
-            }
-            console.log(slot, name);
-            console.log(parsed[slot]);
-        }
-        return parsed
-    }
-
-    const encodeItemNames = () => {
-        var simplifiedMap = {}
-        for (var key in selectedItems) {
-            if (selectedItems.hasOwnProperty(key) && selectedItems[key] !== null) {
-                simplifiedMap[key] = selectedItems[key].name;
-            }
-        }
-        return btoa(JSON.stringify(simplifiedMap));
-    }
 
     const closeModal = (event) => {
         if (event && event.target !== event.currentTarget) {
