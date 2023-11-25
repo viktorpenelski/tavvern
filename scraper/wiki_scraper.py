@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import re
 import json
+from item_repository import FileItemIdMapper
 
 from wiki_utils import cache_image_by_item_name, get_wiki_url
 
@@ -129,23 +130,26 @@ def scrape_ALL():
 
     all_items = []
     failed_items = []
-    for item_type, links in all_links.items():
-        for link in links:
-            print(f'getting {link}')
-            try:
-                html_data = get_wiki_url(link)
-                parsed = parse_page(html_data)
-                parsed['type'] = item_type
-                all_items.append(parsed)
-            except Exception as e:
-                print(f'failed to get {link} due to exception:\n{e}')
-                failed_items.append(link)
+    # VERY IMPORTANT to keep this file consistent, as our UI encoding will depend on the IDs
+    with FileItemIdMapper('stubs/item_ids.json') as item_id_mapper:
+        for item_type, links in all_links.items():
+            for link in links:
+                print(f'getting {link}')
+                try:
+                    html_data = get_wiki_url(link)
+                    parsed = parse_page(html_data)
+                    parsed['type'] = item_type
+                    parsed['id'] = item_id_mapper.add_item(parsed['name'])
+                    all_items.append(parsed)
+                except Exception as e:
+                    print(f'failed to get {link} due to exception:\n{e}')
+                    failed_items.append(link)
 
-    with open('stubs/all_items.json', 'w') as f:
-        f.write(json.dumps(all_items, indent=4))
-    
-    with open('stubs/failed_items.json', 'w') as f:
-        f.write(json.dumps(failed_items, indent=4))
+        with open('stubs/all_items.json', 'w') as f:
+            f.write(json.dumps(all_items, indent=4))
+        
+        with open('stubs/failed_items.json', 'w') as f:
+            f.write(json.dumps(failed_items, indent=4))
 
 if __name__ == '__main__':
     scrape_ALL()

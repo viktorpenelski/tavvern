@@ -13,6 +13,7 @@ Welcome to the Tav[vern] - the tavern where.. Tav resides.
 [ ] and port `name` <---> `id` map to the UI to facilitate better encoding
 [ ] also probably re-export all items as a map `name -> item`, as goign through the entire list takes a long time
 [ ] figure out how to filter weapons for main hand / off hand / ranged main / ranged off
+[ ] color item names by rarity
 
 ### UI ideas
 
